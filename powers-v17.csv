@@ -305,6 +305,7 @@ Tier 1 - Brute,(Brute) Caeneus,7 SP,N/A
 Tier 1 - Brute,(Brute/Blaster) Boiling Blood,7 SP,N/A
 Tier 1 - Brute,(Brute) High-Speed Regeneration,7 SP,N/A
 Tier 1 - Brute,(Brute/Changer) Baa Baa,7 SP,N/A
+Tier 1 - Brute,(Brute/Shaker) Relentless Pressure,7 SP,N/A
 Tier 1 - Brute,(Brute) Ablation,8 SP,N/A
 Tier 1 - Brute,(Brute/Master) Implacable,8 SP,N/A
 Tier 1 - Brute,(Brute/Mover) Spider-Man,8 SP,N/A
@@ -381,6 +382,7 @@ Tier 1 - Breaker,(Breaker/Mover) Dark Shadow,8 SP,N/A
 Tier 1 - Breaker,(Breaker/Trump) Elemental Boost,8 SP,N/A
 Tier 1 - Breaker,(Breaker/Brute) Shonen Bat,8 SP,N/A
 Tier 1 - Breaker,(Breaker) Dimensional Scar,8 SP,N/A
+Tier 1 - Breaker,(Breaker/Striker) Digitize,8 SP,N/A
 Tier 1 - Breaker,(Breaker) Density,9 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) Icarus,9 SP,N/A
 Tier 1 - Breaker,(Breaker) Rebirth,10 SP,N/A
@@ -577,6 +579,7 @@ Tier 1 - Tinker,"(Tinker) Oh, the Humanity",6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Murder,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Workout,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Subterranean,6 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Avatar,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Guns,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Mechanics,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Gravity,7 SP| 2 SP,N/A
@@ -678,6 +681,7 @@ Tier 1 - Blaster,(Blaster) Phantom Punches,2 SP,N/A
 Tier 1 - Blaster,(Blaster) Mine Now!,2 SP,N/A
 Tier 1 - Blaster,(Blaster) Tubeshock,2 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Gandr,2 SP,N/A
+Tier 1 - Blaster,(Blaster/Shaker) ACME,2 SP,N/A
 Tier 1 - Blaster,(Blaster/Master) Earworm,3 SP,N/A
 Tier 1 - Blaster,(Blaster) Hookshot,3 SP,N/A
 Tier 1 - Blaster,(Blaster) Debuff,3 SP,N/A
@@ -752,6 +756,7 @@ Tier 1 - Blaster,(Blaster/Trump) Rogue-lite Shooter,14 SP,N/A
 Tier 1 - Blaster,(Blaster) Damocles,15 SP,N/A
 Tier 1 - Blaster,(Blaster/Trump) Still Blast,15 SP,N/A
 Tier 1 - Blaster,(Blaster) Laser Bullets,15 SP,N/A
+Tier 1 - Blaster,(Blaster/Shaker) Railgun,15 SP,N/A
 Tier 1 - Thinker,(Thinker) New Personal Record,1 SP,N/A
 Tier 1 - Thinker,(Thinker/Mover) SUPER HOT,2 SP,N/A
 Tier 1 - Thinker,(Thinker) X-Ray and Vav,2 SP,N/A
@@ -894,6 +899,7 @@ Tier 1 - Striker,(Striker/Blaster) Fiery Moves,6 SP,N/A
 Tier 1 - Striker,(Striker/Brute) Cutthroat,6 SP,N/A
 Tier 1 - Striker,(Striker/Trump) Gooey Steroids,6 SP,N/A
 Tier 1 - Striker,"(Striker/Trump) Shake, Shake, Shake",6 SP,N/A
+Tier 1 - Striker,(Striker) Discombobulating Puppeteer,6 SP,N/A
 Tier 1 - Striker,(Striker/Trump) Perk,7 SP,N/A
 Tier 1 - Striker,(Striker) Grippy Grip,7 SP,N/A
 Tier 1 - Striker,(Striker) Thorns,7 SP,N/A
@@ -1677,12 +1683,12 @@ Species and Genetics Powers (Original),Coiling Within,10 SP,N/A
 Species and Genetics Powers (Original),Genetic Anomaly,5 SP,N/A
 Species and Genetics Powers (Original),Body of Royalty,15 SP,N/A
 Species and Genetics Powers (Original),I Ate Bane,8 SP,N/A
-Species and Genetics Powers (Original),The Last Child of -,5 SP,N/A
 Species and Genetics Powers (Original),Affixion,10 SP,N/A
 Species and Genetics Powers (Original),Fons Vitae,30 SP,N/A
 Species and Genetics Powers (Original),Superior Clay,5 SP,N/A
 Species and Genetics Powers (Original),Avali,10 SP,N/A
 Species and Genetics Powers (Original),Dark Archangel,20 SP,N/A
+Species and Genetics Powers (Original),Dragon Dreams,15 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1995,6 +2001,7 @@ Spiritual and Divine Powers (Original),My Body Is a Temple of My Soul,7 SP,N/A
 Spiritual and Divine Powers (Original),Dokkaebi,15 SP,N/A
 Spiritual and Divine Powers (Original),Chi Flowing,5 SP,N/A
 Spiritual and Divine Powers (Original),Sainthood,10 SP,N/A
+Spiritual and Divine Powers (Original),Grand Demonic Art of the Slaughter God,20 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
@@ -2426,7 +2433,7 @@ Keystone Powers,Blood and Sweat,10 SP,Required: Celestial Forge; Required: Celes
 Keystone Powers,Companionship,10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Dojo
 Keystone Powers,True Companions,10 SP,Required: Companionship
 Keystone Powers,Celestial Chaos,60 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Dojo
-Keystone Powers,Primordial Chaos Gacha,-100 SP,Required: Celestial Chaos; Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Grimoire
+Keystone Powers,Primordial Chaos Gacha,-100 SP,Required: Celestial Chaos; Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Dojo
 Keystone Powers,Path of the Architect,,Required: g51j
 Keystone Powers,Builder,25 SP,N/A
 Keystone Powers,Engineer,25 SP,N/A
@@ -2473,6 +2480,7 @@ Miscellaneous Objects of Power,H-Dial (DC Comics),30 SP,N/A
 Miscellaneous Objects of Power,Sigils of the Endless (DC Comics),50 SP,N/A
 Miscellaneous Objects of Power,Psychic Paper (Doctor Who),5 SP| 0 SP,N/A
 Miscellaneous Objects of Power,Rainbow Chest (Enter the Gungeon),15 SP,N/A
+Miscellaneous Objects of Power,The Primordial Assimilation Stele (Fortune belongs to those that steal it),10 SP,N/A
 Miscellaneous Objects of Power,Oratrice Mecanique d'Analyse Cardinale (Genshin Impact),15 SP,N/A
 Miscellaneous Objects of Power,Zonko’s box of Magic Prank Items (Harry Potter),5 SP,N/A
 Miscellaneous Objects of Power,Helldiver Strike Squad (Helldivers 2),6 SP,N/A
@@ -2490,6 +2498,7 @@ Miscellaneous Objects of Power,The Key of Kings (Kill Six Billion Demons),20 SP,
 Miscellaneous Objects of Power,Seeds of the Resurrection Plant (Kingdom),5 SP,N/A
 Miscellaneous Objects of Power,Hexcore (League of Legends),12 SP,N/A
 Miscellaneous Objects of Power,Evolution Cube (Legendary Mechanic),15 SP,N/A
+Miscellaneous Objects of Power,Limited Edition Symbol Fumo (Magical Girl ☆Sym-tan☆),1 SP,N/A
 Miscellaneous Objects of Power,The Chair (Magical Girl ☆Sym-tan☆),55 SP,N/A
 Miscellaneous Objects of Power,Netherite (Minecraft),1 SP,N/A
 Miscellaneous Objects of Power,Black Vortex (Marvel),40 SP,N/A
