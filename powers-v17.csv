@@ -199,6 +199,7 @@ Tier 1 - Shaker,(Shaker/Changer) Outbreak,7 SP,N/A
 Tier 1 - Shaker,(Shaker/Striker) Heroes Don't Kill,7 SP,N/A
 Tier 1 - Shaker,(Shaker/Brute) Dissipate,7 SP,N/A
 Tier 1 - Shaker,(Shaker/Brute) No Place Like Home,7 SP,N/A
+Tier 1 - Shaker,(Shaker/Stranger) Cinema Flair,7 SP,N/A
 Tier 1 - Shaker,(Shaker/Blaster) Kill Aura,8 SP,N/A
 Tier 1 - Shaker,(Shaker/Master) Tentacles,8 SP,N/A
 Tier 1 - Shaker,(Shaker) Babel,8 SP,N/A
@@ -243,6 +244,7 @@ Tier 1 - Shaker,(Shaker/Master) Parasitic Army,13 SP,N/A
 Tier 1 - Shaker,(Shaker/Trump) Worst Day Ever,13 SP,N/A
 Tier 1 - Shaker,(Shaker/Stranger) Doomsday Went,13 SP,N/A
 Tier 1 - Shaker,(Shaker/Thinker) Infinite Treasury,13 SP,N/A
+Tier 1 - Shaker,(Shaker/Thinker) Mycorrizha,13 SP,N/A
 Tier 1 - Shaker,(Shaker) Traveler,14 SP,N/A
 Tier 1 - Shaker,(Shaker/Breaker) Alexandrite,14 SP,N/A
 Tier 1 - Shaker,(Shaker/Brute) Gaia,14 SP,N/A
@@ -462,6 +464,8 @@ Tier 1 - Master,(Master) Naiad,7 SP,N/A
 Tier 1 - Master,(Master/Brute) Emotivore,7 SP,N/A
 Tier 1 - Master,(Master/Striker) Pavlov,7 SP,N/A
 Tier 1 - Master,(Master/Thinker) Majority Report,7 SP,N/A
+Tier 1 - Master,(Master/Trump) Heartmaker,7 SP,N/A
+Tier 1 - Master,(Master) Narcissus,7 SP,N/A
 Tier 1 - Master,(Master/Striker) Anti-Addictol,8 SP,N/A
 Tier 1 - Master,(Master) Technopathy,8 SP,N/A
 Tier 1 - Master,(Master/Thinker) Poison Ivy,8 SP,N/A
@@ -542,6 +546,7 @@ Tier 1 - Tinker,(Tinker) Ruggedization,4 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Ergonomics,4 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Overclock,4 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Necromancer,4 SP| 1 SP,N/A
+Tier 1 - Tinker,(Tinker) Rapid Prototyping,4 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Swords,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Lorax,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Assistant,5 SP| 2 SP,N/A
@@ -784,6 +789,7 @@ Tier 1 - Thinker,(Thinker) Dreams of Another Life,3 SP,N/A
 Tier 1 - Thinker,(Thinker) Interlude,3 SP,N/A
 Tier 1 - Thinker,(Thinker) This Is The Greatest Plan…!,3 SP,N/A
 Tier 1 - Thinker,(Thinker) Feel It In My Bones,3 SP,N/A
+Tier 1 - Thinker,(Thinker) Life 360,3 SP,N/A
 Tier 1 - Thinker,(Thinker) Perfect Timing,4 SP,N/A
 Tier 1 - Thinker,(Thinker/Brute) Skill Issue,4 SP,N/A
 Tier 1 - Thinker,(Thinker) A Thousand Souls,4 SP,N/A
@@ -1084,6 +1090,7 @@ Tier 1 - Trump,(Trump) Future Figures,9 SP,N/A
 Tier 1 - Trump,(Trump/Thinker) Tuning Field,9 SP,N/A
 Tier 1 - Trump,(Trump) Quest,9 SP,N/A
 Tier 1 - Trump,(Trump) Deck of Cards,9 SP,N/A
+Tier 1 - Trump,(Trump) Human Resources,9 SP,N/A
 Tier 1 - Trump,(Trump) Fluctuation,10 SP,N/A
 Tier 1 - Trump,(Trump) Protective Barrier,10 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Power Proxy,10 SP,N/A
@@ -1375,12 +1382,13 @@ Tier 2 Powers (Page 1),(Trump/Tinker) Alchemist,15 SP| 7 SP,N/A
 Tier 2 Powers (Page 1),(Trump/Tinker) Cartomancy,15 SP| 7 SP,N/A
 Tier 2 Powers (Page 1),(Trump/Tinker) Grimoire of Shards,15 SP,N/A
 Tier 2 Powers (Page 1),(Trump/Tinker) Armiger,15 SP,N/A
+Tier 2 Powers (Page 1),(Trump/Master) Magical Menagerie,15 SP,N/A
 Tier 2 Powers (Page 1),(Master/Trump) Doll Master,20 SP| -6 DP,N/A
 Tier 2 Powers (Page 1),(Trump) Replicator,20 SP,N/A
 Tier 2 Powers (Page 1),(Striker/Master) Jack Slash,25 SP,N/A
 Tier 2 Powers (Page 1),(Thinker) Omniscient,25 SP,N/A
 Tier 2 Powers (Page 1),(Shaker/Thinker) Omni-Kinesis,25 SP,N/A
-Tier 2 Powers (Page 1),(Mover) Door Me,25 SP,N/A
+Tier 2 Powers (Page 1),(Mover) Door Me,25 SP| 5 SP,N/A
 Tier 2 Powers (Page 1),(Master/Thinker) Peacebringer,20 SP| 10 SP,N/A
 Tier 2 Powers (Page 1),(Thinker/Trump) [Query] [Response],15 SP,N/A
 Tier 2 Powers (Page 1),(Master/Trump) Logic Virus,20 SP,N/A
@@ -1413,6 +1421,7 @@ Tier 2 Powers (Page 1),(Striker/Shaker) Overhaul,20 SP,N/A
 Tier 2 Powers (Page 1),(Thinker) Simulacrum Advisor,16 SP,N/A
 Tier 2 Powers (Page 1),(Tinker) Research And Development,16 SP| 8 SP,N/A
 Tier 2 Powers (Page 1),(Master/Shaker) Goddess,17 SP,N/A
+Tier 2 Powers (Page 1),(Tinker) Machine Army,20 SP,N/A
 Tier 2 Powers (Page 1),(Shaker) Phir Sē,20 SP,N/A
 Tier 2 Powers (Page 1),(Trump) Nullification Hazard,15 SP,N/A
 Tier 2 Powers (Page 1),(Master/Trump) Ribbons,20 SP,N/A
@@ -1437,8 +1446,6 @@ Tier 2 Powers (Page 1),(Master/Thinker) Memetic King,20 SP,N/A
 Tier 2 Powers (Page 1),"(Tinker/Trump) Embrace the Punk, Become PUNK",15 SP| 7 SP,N/A
 Tier 2 Powers (Page 1),(Trump) Fading Star,25 SP,N/A
 Tier 2 Powers (Page 1),(Master) Dragon-Mail,20 SP,N/A
-Tier 2 Powers (Page 1),(Tinker/Trump) Power Tinker,25 SP| 12 SP,N/A
-Tier 2 Powers (Page 1),(Tinker) Cause And Effects,25 SP| 12 SP,N/A
 Tier 3 Powers,(Trump) Manager,30 SP,N/A
 Tier 3 Powers,(Trump) Oberon,25 SP,N/A
 Tier 3 Powers,(Trump) Prototype,40 SP,N/A
@@ -1689,6 +1696,7 @@ Species and Genetics Powers (Original),Superior Clay,5 SP,N/A
 Species and Genetics Powers (Original),Avali,10 SP,N/A
 Species and Genetics Powers (Original),Dark Archangel,20 SP,N/A
 Species and Genetics Powers (Original),Dragon Dreams,15 SP,N/A
+Species and Genetics Powers (Original),Living Dungeon,40 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1791,6 +1799,7 @@ Mental and Psychic Powers (Original),Total Inner Enlightenment,2 SP,N/A
 Mental and Psychic Powers (Original),Mind Trick,3 SP,N/A
 Mental and Psychic Powers (Original),Braincell Burner,10 SP,N/A
 Mental and Psychic Powers (Original),Violent Beast,3 SP,N/A
+Mental and Psychic Powers (Original),Afterimages,1 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1876,6 +1885,7 @@ Magic and Mystic Powers (Original),Mystic Bug Breeding,15 SP,N/A
 Magic and Mystic Powers (Original),Frequency of Magic,10 SP,N/A
 Magic and Mystic Powers (Original),Mana Shield,5 SP,N/A
 Magic and Mystic Powers (Original),Spiritless Bow,5 SP,N/A
+Magic and Mystic Powers (Original),Elemental Core,20 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -2002,6 +2012,9 @@ Spiritual and Divine Powers (Original),Dokkaebi,15 SP,N/A
 Spiritual and Divine Powers (Original),Chi Flowing,5 SP,N/A
 Spiritual and Divine Powers (Original),Sainthood,10 SP,N/A
 Spiritual and Divine Powers (Original),Grand Demonic Art of the Slaughter God,20 SP,N/A
+Spiritual and Divine Powers (Original),"Invoke, Seal, and Call",30 SP,N/A
+Spiritual and Divine Powers (Original),Soul Hug,10 SP,N/A
+Spiritual and Divine Powers (Original),The Bargainer's Brand,15 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
@@ -2274,7 +2287,7 @@ Foundation Powers,Compensation,5 SP,N/A
 Foundation Powers,The Slayer's Path,10 SP,N/A
 Foundation Powers,Inferior Inventor,12 SP,N/A
 Foundation Powers,Achievement System,20 SP,N/A
-Foundation Powers,Set Collector,10 SP,N/A
+Foundation Powers,Set Collector,5 SP,N/A
 Foundation Powers,Attribute Manipulation,15 SP,N/A
 Foundation Powers,Fruits of Labour,5 SP,N/A
 Foundation Powers,As Easy As The First Step,15 SP,N/A
@@ -2293,6 +2306,7 @@ Foundation Powers,Average One,15 SP,N/A
 Foundation Powers,Half-Ascended Talent,5 SP,N/A
 Foundation Powers,Blooming Genius,5 SP,N/A
 Foundation Powers,Chakra Opening,15 SP,N/A
+Foundation Powers,Rock Bottom,20 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2467,6 +2481,7 @@ Miscellaneous Objects of Power,Nyxora Sentis “Mindbloom”,3 SP,N/A
 Miscellaneous Objects of Power,Object(s) of Power,5 SP,N/A
 Miscellaneous Objects of Power,One Human Soul,1 SP,N/A
 Miscellaneous Objects of Power,Sir Lull's Little Music Box,5 SP,N/A
+Miscellaneous Objects of Power,The Blessed Cow Herd,5 SP,N/A
 Miscellaneous Objects of Power,Thirty Pieces of Silver,25 SP,N/A
 Miscellaneous Objects of Power,Treasury,10 SP,N/A
 Miscellaneous Objects of Power,Upgrade Token,1 SP,N/A
