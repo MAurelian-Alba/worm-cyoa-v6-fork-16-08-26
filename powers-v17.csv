@@ -219,7 +219,7 @@ Tier 1 - Shaker,"(Shaker/Brute) Stomach In, Stomach Out",9 SP,N/A
 Tier 1 - Shaker,(Shaker) Deaf Note,9 SP,N/A
 Tier 1 - Shaker,(Shaker) Inverted Structure,9 SP,N/A
 Tier 1 - Shaker,(Shaker) Temporal Tempo,10 SP,N/A
-Tier 1 - Shaker,(Shaker/Tinker) Scrapyard,10 SP| 3 SP,N/A
+Tier 1 - Shaker,(Shaker/Tinker) Scrapyard,10 SP| 4 SP,N/A
 Tier 1 - Shaker,(Shaker/Trump) Power Slowdown,10 SP,N/A
 Tier 1 - Shaker,(Shaker) Amped Up,10 SP,N/A
 Tier 1 - Shaker,(Shaker/Thinker) Loot Box,10 SP,N/A
@@ -486,7 +486,7 @@ Tier 1 - Master,(Master/Trump) Chibi Champion,9 SP,N/A
 Tier 1 - Master,(Master) Positive Multiplier,10 SP,N/A
 Tier 1 - Master,(Master/Shaker) Logosthesia,10 SP,N/A
 Tier 1 - Master,(Master/Thinker) Brain Drain,10 SP,N/A
-Tier 1 - Master,(Master/Tinker) Kerbal,10 SP| 3 SP,N/A
+Tier 1 - Master,(Master/Tinker) Kerbal,10 SP| 4 SP,N/A
 Tier 1 - Master,(Master/Striker) Imp Master,10 SP,N/A
 Tier 1 - Master,(Master/Mover) Gremlins,10 SP,N/A
 Tier 1 - Master,(Master) Mirror Mirror,10 SP,N/A
@@ -499,7 +499,7 @@ Tier 1 - Master,(Master/Trump) Haze of Conflict,10 SP,N/A
 Tier 1 - Master,(Master/Thinker) Truth Serum,10 SP,N/A
 Tier 1 - Master,(Master) It’s The Thought That Counts,10 SP,N/A
 Tier 1 - Master,(Master/Breaker) Bilocation,10 SP,N/A
-Tier 1 - Master,(Master/Tinker) Piggot’s Terror,10 SP| 3 SP,N/A
+Tier 1 - Master,(Master/Tinker) Piggot’s Terror,10 SP| 4 SP,N/A
 Tier 1 - Master,(Master) Kitbash,10 SP,N/A
 Tier 1 - Master,(Master/Thinker) Brain Worms,10 SP,N/A
 Tier 1 - Master,(Master/Breaker) Blood Spill,10 SP,N/A
@@ -522,7 +522,7 @@ Tier 1 - Master,(Master) Monster Maker,15 SP,N/A
 Tier 1 - Master,(Master) Shadow Servant,15 SP,N/A
 Tier 1 - Master,(Master/Tinker) The Spark of Life,15 SP| 5 SP,N/A
 Tier 1 - Master,(Master/Trump) Disgorge,15 SP,N/A
-Tier 1 - Tinker,(Tinker) Cannibal,1 SP| 1 SP,N/A
+Tier 1 - Tinker,(Tinker) Cannibal,1 SP,N/A
 Tier 1 - Tinker,(Tinker) Jack of All Trades,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Thrown,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Bell,2 SP| 1 SP,N/A
@@ -538,15 +538,15 @@ Tier 1 - Tinker,(Tinker) of Friction,3 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Kinesis,3 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Domestic Life,3 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Surveillance,3 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker/Master) Love Potion,4 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker) Salvage,4 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker/Thinker) One Man’s Trash Is Another Man’s Treasure,4 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker) Attunement,4 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker) Ruggedization,4 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker) Ergonomics,4 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker) Overclock,4 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker) Necromancer,4 SP| 1 SP,N/A
-Tier 1 - Tinker,(Tinker) Rapid Prototyping,4 SP| 1 SP,N/A
+Tier 1 - Tinker,(Tinker/Master) Love Potion,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Salvage,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker/Thinker) One Man’s Trash Is Another Man’s Treasure,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Attunement,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Ruggedization,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Ergonomics,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Overclock,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Necromancer,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Rapid Prototyping,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Swords,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Lorax,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Assistant,5 SP| 2 SP,N/A
@@ -585,20 +585,20 @@ Tier 1 - Tinker,(Tinker) Murder,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Workout,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Subterranean,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Avatar,6 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Guns,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Mechanics,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Gravity,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Nautical,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Aero,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Thermal,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Terra,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Armor,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Style,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Toyman,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Bonsai,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Infusionist,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Backpack,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker/Master) Spawners,7 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Guns,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Mechanics,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Gravity,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Nautical,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Aero,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Thermal,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Terra,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Armor,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Style,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Toyman,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Bonsai,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Infusionist,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Backpack,7 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker/Master) Spawners,7 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Kryptonite,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Robots,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Bloody Tinker,8 SP| 3 SP,N/A
@@ -632,18 +632,18 @@ Tier 1 - Tinker,(Tinker) Rocketman,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Fluctuation,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Ace Combat,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Metropolis,9 SP| 3 SP,N/A
-Tier 1 - Tinker,"(Tinker/Thinker) Suppress, Conjecture, Predict",10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker) Rube Goldberg Machines,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker) Meme,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker/Thinker) Class In Session,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker/Thinker) Safety,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker) Construction,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker) Material,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker) Techie,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker) Remote Control,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker/Striker) Fuinjutsu,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker) Domain,10 SP| 3 SP,N/A
-Tier 1 - Tinker,(Tinker) Huge Scale,10 SP| 3 SP,N/A
+Tier 1 - Tinker,"(Tinker/Thinker) Suppress, Conjecture, Predict",10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Rube Goldberg Machines,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Meme,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker/Thinker) Class In Session,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker/Thinker) Safety,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Construction,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Material,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Techie,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Remote Control,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker/Striker) Fuinjutsu,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Domain,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Huge Scale,10 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Fortifications and Artillery,11 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Escalation,11 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Reconfiguration,11 SP| 4 SP,N/A
@@ -655,9 +655,9 @@ Tier 1 - Tinker,(Tinker) Assimilation,11 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Reproduction,12 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Self-Alteration,12 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Probability Manipulation,12 SP| 4 SP,N/A
-Tier 1 - Tinker,(Tinker/Master) Nanobots,13 SP| 4 SP,N/A
-Tier 1 - Tinker,(Tinker/Master) Machine World,13 SP| 4 SP,N/A
-Tier 1 - Tinker,(Tinker) Nanites,13 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker/Master) Nanobots,13 SP| 5 SP,N/A
+Tier 1 - Tinker,(Tinker/Master) Machine World,13 SP| 5 SP,N/A
+Tier 1 - Tinker,(Tinker) Nanites,13 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Nuclear,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Space,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Destruction,14 SP| 5 SP,N/A
@@ -675,7 +675,7 @@ Tier 1 - Tinker,(Tinker) Living Metallurgist,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Twilight Tinker,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Antagonist Builder,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Fastest Tinker Alive,15 SP| 5 SP,N/A
-Tier 1 - Tinker,(Tinker) The Dao of EXPLOSIONS!,15 SP,N/A
+Tier 1 - Tinker,(Tinker) The Dao of EXPLOSIONS!,15 SP| 5 SP,N/A
 Tier 1 - Blaster,(Blaster) Epilepsy,1 SP,N/A
 Tier 1 - Blaster,(Blaster) Super Murder Death Beams,1 SP,N/A
 Tier 1 - Blaster,(Blaster) Boomerang,1 SP,N/A
@@ -881,13 +881,13 @@ Tier 1 - Striker,(Striker) Change Size,4 SP,N/A
 Tier 1 - Striker,(Striker/Shaker) Hole,4 SP,N/A
 Tier 1 - Striker,(Striker) Stop!,4 SP,N/A
 Tier 1 - Striker,(Striker) 100th Strike,4 SP,N/A
-Tier 1 - Striker,(Striker/Tinker) Amplify Charges,4 SP| 1 SP,N/A
+Tier 1 - Striker,(Striker/Tinker) Amplify Charges,4 SP| 2 SP,N/A
 Tier 1 - Striker,(Striker/Brute) Rusted Juggernaut,4 SP,N/A
 Tier 1 - Striker,(Striker) Vibranium,5 SP,N/A
 Tier 1 - Striker,(Striker) Midas Touch,5 SP,N/A
 Tier 1 - Striker,(Striker) Mass Manipulation,5 SP,N/A
 Tier 1 - Striker,(Striker/Blaster) The Spin,5 SP,N/A
-Tier 1 - Striker,(Striker/Tinker) Facet,5 SP,N/A
+Tier 1 - Striker,(Striker/Tinker) Facet,5 SP| 2 SP,N/A
 Tier 1 - Striker,(Striker) Phase Touch,5 SP,N/A
 Tier 1 - Striker,(Striker) Edge,5 SP,N/A
 Tier 1 - Striker,(Striker) Human Capacitor,5 SP,N/A
@@ -1310,7 +1310,7 @@ Tier 1 - Stranger,(Stranger/Shaker) Simulated Delusion,15 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) Cretan,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker/Blaster) Damsel of Distress,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) MYOSHA,10 SP,N/A
-"Power Copy (Mover, Shaker, Brute)",(Shaker) Ogun,10 SP,N/A
+"Power Copy (Mover, Shaker, Brute)",(Shaker/Tinker) Ogun,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) Vista,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) Winter,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) Dispatch,11 SP,N/A
@@ -1350,7 +1350,6 @@ Tier 1 - Stranger,(Stranger/Shaker) Simulated Delusion,15 SP,N/A
 Tier 2 Powers (Page 1),(Trump) Gamer System,20 SP,N/A
 Tier 2 Powers (Page 1),"(Shaker/Blaster) Magnets, Son! How do they work?",15 SP,N/A
 Tier 2 Powers (Page 1),(Master/Stranger) If Anything Were To Happen…,15 SP,N/A
-Tier 2 Powers (Page 1),(Changer/Trump) Pokemon,25 SP,N/A
 Tier 2 Powers (Page 1),(Brute) Unlimited Potential,15 SP,N/A
 Tier 2 Powers (Page 1),(Trump/Breaker) Emulation of an Alien Caveman,25 SP,N/A
 Tier 2 Powers (Page 1),(Breaker/Trump) Cronus,20 SP,N/A
@@ -1377,11 +1376,11 @@ Tier 2 Powers (Page 1),(Thinker) Polymath,15 SP,N/A
 Tier 2 Powers (Page 1),(Trump) Arcanist,15 SP,N/A
 Tier 2 Powers (Page 1),(Trump) Kineticist,15 SP,N/A
 Tier 2 Powers (Page 1),(Trump/Brute) Martial Adept,15 SP,N/A
-Tier 2 Powers (Page 1),(Trump/Tinker) Artificer,15 SP| 7 SP,N/A
-Tier 2 Powers (Page 1),(Trump/Tinker) Alchemist,15 SP| 7 SP,N/A
-Tier 2 Powers (Page 1),(Trump/Tinker) Cartomancy,15 SP| 7 SP,N/A
-Tier 2 Powers (Page 1),(Trump/Tinker) Grimoire of Shards,15 SP,N/A
-Tier 2 Powers (Page 1),(Trump/Tinker) Armiger,15 SP,N/A
+Tier 2 Powers (Page 1),(Trump/Tinker) Artificer,15 SP| 8 SP,N/A
+Tier 2 Powers (Page 1),(Trump/Tinker) Alchemist,15 SP| 8 SP,N/A
+Tier 2 Powers (Page 1),(Trump/Tinker) Cartomancy,15 SP| 8 SP,N/A
+Tier 2 Powers (Page 1),(Trump/Tinker) Grimoire of Shards,15 SP| 8 SP,N/A
+Tier 2 Powers (Page 1),(Trump/Tinker) Armiger,15 SP| 8 SP,N/A
 Tier 2 Powers (Page 1),(Trump/Master) Magical Menagerie,15 SP,N/A
 Tier 2 Powers (Page 1),(Master/Trump) Doll Master,20 SP| -6 DP,N/A
 Tier 2 Powers (Page 1),(Trump) Replicator,20 SP,N/A
@@ -1409,7 +1408,7 @@ Tier 2 Powers (Page 1),(Tinker) Cyber Dystopia,18 SP| 9 SP,N/A
 Tier 2 Powers (Page 1),(Tinker/Trump) Mind is Matter and It'll Make the Whole World Go Round,20 SP| 10 SP,N/A
 Tier 2 Powers (Page 1),(Tinker) The Factory Must Grow,20 SP| 10 SP,N/A
 Tier 2 Powers (Page 1),(Tinker) Upcoming Century,18 SP| 9 SP,N/A
-Tier 2 Powers (Page 1),(Tinker) Dyson Sphere Program,25 SP| 12 SP,N/A
+Tier 2 Powers (Page 1),(Tinker) Dyson Sphere Program,25 SP| 13 SP,N/A
 Tier 2 Powers (Page 1),(Master/Tinker) Master of Green,15 SP| 8 SP,N/A
 Tier 2 Powers (Page 1),(Shaker/Mover) Nyx,20 SP,N/A
 Tier 2 Powers (Page 1),(Shaker/Mover) Eos,20 SP,N/A
@@ -1421,7 +1420,7 @@ Tier 2 Powers (Page 1),(Striker/Shaker) Overhaul,20 SP,N/A
 Tier 2 Powers (Page 1),(Thinker) Simulacrum Advisor,16 SP,N/A
 Tier 2 Powers (Page 1),(Tinker) Research And Development,16 SP| 8 SP,N/A
 Tier 2 Powers (Page 1),(Master/Shaker) Goddess,17 SP,N/A
-Tier 2 Powers (Page 1),(Tinker) Machine Army,20 SP,N/A
+Tier 2 Powers (Page 1),(Tinker) Machine Army,20 SP| 10 SP,N/A
 Tier 2 Powers (Page 1),(Shaker) Phir Sē,20 SP,N/A
 Tier 2 Powers (Page 1),(Trump) Nullification Hazard,15 SP,N/A
 Tier 2 Powers (Page 1),(Master/Trump) Ribbons,20 SP,N/A
@@ -1441,11 +1440,12 @@ Tier 2 Powers (Page 1),(Thinker) Clairvoyant,20 SP,N/A
 Tier 2 Powers (Page 1),(Shaker) Baryonic Creation,15 SP,N/A
 Tier 2 Powers (Page 1),(Tinker/Thinker) Gaia's Hand,20 SP| 10 SP,N/A
 Tier 2 Powers (Page 1),(Tinker/Thinker) Hades Protocol,20 SP| 10 SP,N/A
-Tier 2 Powers (Page 1),(Tinker/Trump) Tinker of Chance,25 SP| 12 SP,N/A
+Tier 2 Powers (Page 1),(Tinker/Trump) Tinker of Chance,25 SP| 13 SP,N/A
 Tier 2 Powers (Page 1),(Master/Thinker) Memetic King,20 SP,N/A
-Tier 2 Powers (Page 1),"(Tinker/Trump) Embrace the Punk, Become PUNK",15 SP| 7 SP,N/A
+Tier 2 Powers (Page 1),"(Tinker/Trump) Embrace the Punk, Become PUNK",15 SP| 8 SP,N/A
 Tier 2 Powers (Page 1),(Trump) Fading Star,25 SP,N/A
 Tier 2 Powers (Page 1),(Master) Dragon-Mail,20 SP,N/A
+Tier 2 Powers (Page 1),(Tinker/Trump) Power Tinker,25 SP| 13 SP,N/A
 Tier 3 Powers,(Trump) Manager,30 SP,N/A
 Tier 3 Powers,(Trump) Oberon,25 SP,N/A
 Tier 3 Powers,(Trump) Prototype,40 SP,N/A
@@ -1591,20 +1591,20 @@ Shard Fusions (Page 1),Great Old One,5 SP,Required: Sealed King; Required: (Brea
 Shard Fusions (Page 1),Eternal Star,5 SP,Required: Phoenix Star; Required: (Trump) Oberon
 Shard Fusions (Page 1),Timeless,16 SP,Required: (Striker/Shaker) Epoch; Required: Undo-Redo
 Shard Fusions (Page 1),Realistic Army,5 SP,Required: (Striker/Trump) Idol Theory; Required: (Master) Golem
-Shard Fusions (Page 1),Full Set,2 SP| 1 SP,Required: (Tinker) Armor; Required: (Tinker) Shields
+Shard Fusions (Page 1),Full Set,2 SP| 0 SP,Required: (Tinker) Armor; Required: (Tinker) Shields
 Shard Fusions (Page 1),Hands On Learning,5 SP,Required: (Thinker) Simulacrum Advisor; Required: (Thinker) Super Dream
 Shard Fusions (Page 1),Backed Up Advisor,15 SP,Required: (Thinker) Simulacrum Advisor; Required: (Striker/Trump) Backup
 Shard Fusions (Page 1),Simulacrum Mentors,12 SP,Required: (Thinker) Simulacrum Advisor; Required: (Master/Trump) Multiversal Emulator
 Shard Fusions (Page 1),Berserker,11 SP,Required: (Trump/Brute) Madness; Required: (Trump) Loyal Companion
 Shard Fusions (Page 1),Werewolf,8 SP,Required: (Striker/Changer) Wolf Time
 Shard Fusions (Page 1),Beast Time,7 SP,Required: (Striker/Changer) Wolf Time; Required: (Changer/Brute) Dinosaur
-Shard Fusions (Page 1),Reality Hacker,5 SP| 1 SP,Required: (Tinker) Code
-Shard Fusions (Page 1),Theoretical Communications,5 SP| 1 SP,Required: (Tinker) Communication
+Shard Fusions (Page 1),Reality Hacker,5 SP| 2 SP,Required: (Tinker) Code
+Shard Fusions (Page 1),Theoretical Communications,5 SP| 2 SP,Required: (Tinker) Communication
 Shard Fusions (Page 1),Quantum Projects,6 SP| 2 SP,Required: (Tinker) Interdimensional; Required: (Tinker) Time Dilation; Required: Reality Hacker; Required: Theoretical Communications
-Shard Fusions (Page 1),(Un)Holy Trinity,5 SP| 1 SP,Required: (Tinker) Cybernetics
-Shard Fusions (Page 1),Shard-Like,5 SP| 1 SP,Required: (Tinker) Software; Required: (Tinker) Quantum Computing
-Shard Fusions (Page 1),Turing-Machine,5 SP| 1 SP,Required: (Tinker) Electronics; Required: (Tinker) Chemistry
-Shard Fusions (Page 1),"Solarpunk: ""I SPEAK FOR THE TREES!!""",5 SP| 1 SP,Required: (Tinker) Lorax; Required: (Tinker/Thinker) Solarpunk
+Shard Fusions (Page 1),(Un)Holy Trinity,5 SP| 2 SP,Required: (Tinker) Cybernetics
+Shard Fusions (Page 1),Shard-Like,5 SP| 2 SP,Required: (Tinker) Software; Required: (Tinker) Quantum Computing
+Shard Fusions (Page 1),Turing-Machine,5 SP| 2 SP,Required: (Tinker) Electronics; Required: (Tinker) Chemistry
+Shard Fusions (Page 1),"Solarpunk: ""I SPEAK FOR THE TREES!!""",5 SP| 3 SP,Required: (Tinker) Lorax; Required: (Tinker/Thinker) Solarpunk
 Shard Fusions (Page 1),Solarpunk: Esoterica,10 SP| 1 SP,Required: (Trump/Master) Magical Plant; Required: (Tinker/Thinker) Solarpunk
 Shard Fusions (Page 1),Simurgh Lite,10 SP,Required: (Tinker) Jack of All Trades
 Shard Fusions (Page 1),Debt,16 SP,Required: (Master) Geas; Required: (Stranger/Trump) Exchange Broker
@@ -2498,7 +2498,6 @@ Miscellaneous Objects of Power,Rainbow Chest (Enter the Gungeon),15 SP,N/A
 Miscellaneous Objects of Power,The Primordial Assimilation Stele (Fortune belongs to those that steal it),10 SP,N/A
 Miscellaneous Objects of Power,Oratrice Mecanique d'Analyse Cardinale (Genshin Impact),15 SP,N/A
 Miscellaneous Objects of Power,Zonko’s box of Magic Prank Items (Harry Potter),5 SP,N/A
-Miscellaneous Objects of Power,Helldiver Strike Squad (Helldivers 2),6 SP,N/A
 Miscellaneous Objects of Power,Delicate Flower (Hollow Knight),1 SP,N/A
 Miscellaneous Objects of Power,Sylladex (Homestuck),15 SP,N/A
 Miscellaneous Objects of Power,Stigmata (Honkai Impact 3rd),8 SP,N/A
@@ -2532,7 +2531,5 @@ Miscellaneous Objects of Power,Symphogear (Senki Zesshou Symphogear),15 SP,N/A
 Miscellaneous Objects of Power,Terraria Equipment (Terraria),7 SP,N/A
 Miscellaneous Objects of Power,Daedric Equipment (The Elder Scrolls),5 SP,N/A
 Miscellaneous Objects of Power,The AllSpark (Transformers),25 SP,N/A
-Miscellaneous Objects of Power,Tsukumogami (Tsugumomo),10 SP,N/A
 Miscellaneous Objects of Power,Völundr (Record of Ragnarok),15 SP,N/A
-Miscellaneous Objects of Power,Gyrinx (Warhammer: 40k),3 SP,N/A
 Miscellaneous Objects of Power,Warrant of Trade (Warhammer: 40k),13 SP,N/A
