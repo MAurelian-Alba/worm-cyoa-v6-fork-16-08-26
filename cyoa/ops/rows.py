@@ -183,6 +183,7 @@ def redistribute_to_rows(
   pages: list[list[dict]],
   title: str,
   template_row: dict,
+  prefix: str | None = None,
 ) -> RedistributeResult:
   """Assign pages of objects to physical rows, creating/removing rows as needed.
 
@@ -194,6 +195,7 @@ def redistribute_to_rows(
       pages: List of pages, each page is a list of object dicts
       title: Base title for the rows
       template_row: Template row dict to use for creating new rows
+      prefix: Optional prefix for newly generated row IDs
 
   Returns:
       RedistributeResult with details about rows created/removed
@@ -217,7 +219,7 @@ def redistribute_to_rows(
     )
     for i in range(num_existing, num_pages):
       new_row = copy.deepcopy(template_row)
-      new_row["id"] = gen_id()
+      new_row["id"] = f"{prefix}{gen_id()}" if prefix else gen_id()
       new_row["objects"] = []
       last_row_idx += 1
       project["rows"].insert(last_row_idx, new_row)
