@@ -1,116 +1,134 @@
 groups:
 - title: Tier 0 / Lesser Powers
   max_objects: 100
+  prefix: group--
   rows:
-  - dljy
-  - te9w19
+  - group--dljy
+  - group--te9w19
 - title: Tier 2 Powers
   max_objects: 100
-  prefix: tier2--
+  prefix: group--
   rows:
-  - tier2--zg2f
-  - tier2--fxkg1a
-  - tier2--zr3ucz
+  - group--zg2f
+  - group--fxkg1a
+  - group--zr3ucz
 - title: Power Fusions (Shard)
   max_objects: 100
+  prefix: group--
   rows:
-  - qldk
-  - fxkh2a
-  - 1alus9
-  - 9dfy6t
+  - group--qldk
+  - group--fxkh2a
+  - group--1alus9
+  - group--9dfy6t
 - title: Physical Powers (Franchise)
   max_objects: 100
+  prefix: group--
   rows:
-  - tr2h
-  - 9z61
+  - group--tr2h
+  - group--9z61
 - title: Species and Genetics Powers (Franchise)
   max_objects: 100
+  prefix: group--
   rows:
-  - k0ynvk
-  - xb92lo
-  - 2jrmsq
+  - group--k0ynvk
+  - group--xb92lo
+  - group--2jrmsq
 - title: Magic and Mystic Powers (Franchise)
   max_objects: 100
+  prefix: group--
   rows:
-  - 7e1nha
-  - rdkpdn
-  - kqxzoo
+  - group--7e1nha
+  - group--rdkpdn
+  - group--kqxzoo
 - title: Spiritual and Divine Powers (Franchise)
   max_objects: 100
+  prefix: group--
   rows:
-  - 6vf9hq
-  - lonmxk
-  - xwp2b8
+  - group--6vf9hq
+  - group--lonmxk
+  - group--xwp2b8
 - title: Technology and Artifice Powers (Franchise)
   max_objects: 100
+  prefix: group--
   rows:
-  - 6e7tlc
-  - qr1162
-  - iwgacm
+  - group--6e7tlc
+  - group--qr1162
+  - group--iwgacm
 - title: Esoteric and Abstract Powers (Original)
   max_objects: 100
+  prefix: group--
   rows:
-  - 3pua
-  - lxob6d
-  - l7zyuf
+  - group--3pua
+  - group--lxob6d
+  - group--l7zyuf
 - title: Esoteric and Abstract Powers (Franchise)
   max_objects: 100
+  prefix: group--
   rows:
-  - iehqzt
-  - ccjj0d
-  - bfxjty
+  - group--iehqzt
+  - group--ccjj0d
+  - group--bfxjty
 - title: Weapon Objects of Power
   max_objects: 100
+  prefix: group--
   rows:
-  - WeaponOoP
-  - cwwpe9
-  - c7faw0
+  - group--WeaponOoP
+  - group--cwwpe9
+  - group--c7faw0
 - title: Wearable Objects of Power
   max_objects: 100
+  prefix: group--
   rows:
-  - WearOoP
-  - 2bu0xd
-  - epzg09
+  - group--WearOoP
+  - group--2bu0xd
+  - group--epzg09
 - title: Physical Power Upgrades
   max_objects: 100
+  prefix: group--
   rows:
-  - fqrt
-  - 6jykaj
-  - zls0a6
+  - group--fqrt
+  - group--6jykaj
+  - group--zls0a6
 - title: Magic and Mystic Power Upgrades
   max_objects: 100
+  prefix: group--
   rows:
-  - arnl
-  - 1f1z3d
-  - fyjbr0
+  - group--arnl
+  - group--1f1z3d
+  - group--fyjbr0
 - title: Spiritual and Divine Power Upgrades
   max_objects: 100
+  prefix: group--
   rows:
-  - 0ye0
-  - gelo1h
-  - 91zwtu
+  - group--0ye0
+  - group--gelo1h
+  - group--91zwtu
 - title: Esoteric and Abstract Power Upgrades
   max_objects: 100
+  prefix: group--
   rows:
-  - ufcz
-  - 3yme31
-  - zuzg66
+  - group--ufcz
+  - group--3yme31
+  - group--zuzg66
 - title: Foundation Upgrades
   max_objects: 100
+  prefix: group--
   rows:
-  - dj3w
-  - 22wd1a
+  - group--dj3w
+  - group--22wd1a
 - title: Alternate Earths
   max_objects: 100
+  prefix: group--
   rows:
-  - ut3t
-  - 0xd7jq
-  - ocn9gp
-  - pbcjqa
+  - group--ut3t
+  - group--0xd7jq
+  - group--ocn9gp
+  - group--pbcjqa
 - title: Locations (Available to Non-Earths)
   max_objects: 100
+  prefix: group--
   rows:
-  - b8kp
-  - 99cyq2
-  - i2j2pf
-  - lpd4x0
+  - group--b8kp
+  - group--99cyq2
+  - group--i2j2pf
+  - group--lpd4x0

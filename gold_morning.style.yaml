@@ -55,17 +55,23 @@ classes:
       reqFilterGrayIsOn: { op: replace, value: false }
       reqBgColorIsOn: { op: replace, value: false }
 
+  groupTitle:
+    normalize: true
+    matching: ["row/*--Title"]
+    properties:
+      rowBodyMarginBottom: { op: replace, value: -20 }
   groupPage:
     normalize: true
+    matching: ["row/group--*"]
     properties:
-      objectTextColor: { op: replace, value: $invisible }
-      objectTextTextSize: { op: replace, value: 0 }
-      objectTitleColor: { op: replace, value: $invisible }
-      objectTitleTextSize: { op: replace, value: 0 }
+      rowBodyMarginBottom: { op: replace, value: -18 }
+      rowTextColor: { op: replace, value: $invisible }
+      rowTextTextSize: { op: replace, value: 0 }
+      rowTitleColor: { op: replace, value: $invisible }
+      rowTitleTextSize: { op: replace, value: 0 }
       
   credits:
     normalize: true
-    matching: ["obj/pdqo", "obj/5r3m", "obj/1iet"]
     properties:
       objectBorderIsOn: false
       objectBgColor: { op: replace, value: $invisible }
@@ -121,112 +127,11 @@ obj/N55555:
   properties:
     selFilterBgColor: "#D289D0D9"
 
-row/dljy:
-  class: groupPage
-row/te9w19:
-  class: groupPage
-row/zg2f:
-  class: groupPage
-row/fxkg1a:
-  class: groupPage
-row/qldk:
-  class: groupPage
-row/fxkh2a:
-  class: groupPage
-row/1alus9:
-  class: groupPage
-row/9dfy6t:
-  class: groupPage
-row/k0ynvk:
-  class: groupPage
-row/xb92lo:
-  class: groupPage
-row/ir970k:
-  class: groupPage
-row/fkwc99:
-  class: groupPage
-row/7e1nha:
-  class: groupPage
-row/rdkpdn:
-  class: groupPage
-row/kqxzoo:
-  class: groupPage
-row/6vf9hq:
-  class: groupPage
-row/lonmxk:
-  class: groupPage
-row/xwp2b8:
-  class: groupPage
-row/6e7tlc:
-  class: groupPage
-row/qr1162:
-  class: groupPage
-row/iwgacm:
-  class: groupPage
-row/3pua:
-  class: groupPage
-row/lxob6d:
-  class: groupPage
-row/l7zyuf:
-  class: groupPage
-row/iehqzt:
-  class: groupPage
-row/ccjj0d:
-  class: groupPage
-row/bfxjty:
-  class: groupPage
-row/WeaponOoP:
-  class: groupPage
-row/cwwpe9:
-  class: groupPage
-row/WearOoP:
-  class: groupPage
-row/2bu0xd:
-  class: groupPage
-row/fqrt:
-  class: groupPage
-row/6jykaj:
-  class: groupPage
-row/zls0a6:
-  class: groupPage
-row/arnl:
-  class: groupPage
-row/1f1z3d:
-  class: groupPage
-row/fyjbr0:
-  class: groupPage
-row/0ye0:
-  class: groupPage
-row/gelo1h:
-  class: groupPage
-row/91zwtu:
-  class: groupPage
-row/ufcz:
-  class: groupPage
-row/3yme31:
-  class: groupPage
-row/dj3w:
-  class: groupPage
-row/22wd1a:
-  class: groupPage
-row/ut3t:
-  class: groupPage
-row/0xd7jq:
-  class: groupPage
-row/ocn9gp:
-  class: groupPage
-row/b8kp:
-  class: groupPage
-row/99cyq2:
-  class: groupPage
-row/i2j2pf:
-  class: groupPage
-row/lpd4x0:
-    class: groupPage
-
 # Credits
 obj/pdqo: { class: credits }
 obj/5r3m: { class: credits }
 obj/1iet: { class: credits }
+obj/hoo6dh: { class: credits }
+obj/2hfwwd: { class: credits }
 
 obj/Sephiroth_Graal: { isPrivateStyling: false }
