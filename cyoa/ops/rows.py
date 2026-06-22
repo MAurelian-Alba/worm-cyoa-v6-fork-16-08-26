@@ -269,6 +269,17 @@ def balance_groups(project: dict, group: dict) -> BalanceResult:
   title = group["title"]
   max_objects = group["max_objects"]
   row_ids = group["rows"]
+  prefix = group.get("prefix")
+
+  if prefix:
+    for i, row_id in enumerate(row_ids):
+      if not row_id.startswith(prefix):
+        row = find_first(project["rows"], lambda r, rid=row_id: r["id"] == rid)
+        if row is None:
+          raise KeyError(f"Row {row_id!r} not found in group {title!r}")
+        new_id = f"{prefix}{row_id}"
+        row["id"] = new_id
+        row_ids[i] = new_id
 
   # Resolve existing physical rows
   rows = []
@@ -306,7 +317,7 @@ def balance_groups(project: dict, group: dict) -> BalanceResult:
 
   # Redistribute to rows
   redistribute_result = redistribute_to_rows(
-    project, row_ids, pages, title, template_row
+    project, row_ids, pages, title, template_row, prefix=prefix
   )
 
   return BalanceResult(

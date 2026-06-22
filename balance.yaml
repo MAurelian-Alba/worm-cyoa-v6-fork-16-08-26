@@ -6,10 +6,11 @@ groups:
   - te9w19
 - title: Tier 2 Powers
   max_objects: 100
+  prefix: tier2--
   rows:
-  - zg2f
-  - fxkg1a
-  - zr3ucz
+  - tier2--zg2f
+  - tier2--fxkg1a
+  - tier2--zr3ucz
 - title: Power Fusions (Shard)
   max_objects: 100
   rows:
