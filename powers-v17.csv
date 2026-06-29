@@ -225,6 +225,7 @@ Tier 1 - Brute,(Brute/Trump) Zenkai Boost,10 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Overdrive Mode,10 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Mang,10 SP,N/A
 Tier 1 - Brute,(Brute) Phylactery,11 SP,N/A
+Tier 1 - Brute,(Brute/Shaker) Pyrexia,11 SP,N/A
 Tier 1 - Brute,(Brute/Changer) Two Good Arms,12 SP,N/A
 Tier 1 - Brute,"(Brute) Mine, Mine, Mine!",12 SP,N/A
 Tier 1 - Brute,(Brute) Telekinetic Barrier,12 SP,N/A
@@ -544,6 +545,7 @@ Tier 1 - Tinker,(Tinker) Remote Control,10 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker/Striker) Fuinjutsu,10 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Domain,10 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Huge Scale,10 SP| 4 SP,N/A
+Tier 1 - Tinker,(Tinker) Satellites,10 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Fortifications and Artillery,11 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Escalation,11 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Reconfiguration,11 SP| 4 SP,N/A
@@ -740,6 +742,7 @@ Tier 1 - Thinker,(Thinker) Mental Faculty,7 SP,N/A
 Tier 1 - Thinker,(Thinker) Enhanced Mastery,8 SP,N/A
 Tier 1 - Thinker,(Thinker) Canon Event,8 SP,N/A
 Tier 1 - Thinker,(Thinker/Striker) Martial Arts,8 SP,N/A
+Tier 1 - Thinker,(Thinker/Master) Zeitgeist,8 SP,N/A
 Tier 1 - Thinker,(Thinker) My Eyes are Your Eyes,9 SP,N/A
 Tier 1 - Thinker,(Thinker) Danger Sense,9 SP,N/A
 Tier 1 - Thinker,(Thinker) Discombobulate,9 SP,N/A
@@ -1210,7 +1213,7 @@ Tier 1 - Stranger,(Stranger/Shaker) Simulated Delusion,15 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) Cretan,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker/Blaster) Damsel of Distress,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) MYOSHA,10 SP,N/A
-"Power Copy (Mover, Shaker, Brute)",(Shaker/Tinker) Ogun,10 SP,N/A
+"Power Copy (Mover, Shaker, Brute)",(Shaker/Tinker) Ogun,10 SP| 4 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) Vista,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) Winter,10 SP,N/A
 "Power Copy (Mover, Shaker, Brute)",(Shaker) Dispatch,11 SP,N/A
@@ -1315,6 +1318,7 @@ Tier 3 Powers,(Tinker/Thinker) Tinker to Victory,25 SP,N/A
 Tier 3 Powers,(Blaster/Trump) Disco Ball,25 SP,N/A
 Tier 3 Powers,(Breaker/Trump) Herald of the End,30 SP,N/A
 Tier 3 Powers,(Blaster/Shaker) Buster,30 SP,N/A
+Tier 3 Powers,(Trump) Iconoclast,35 SP,N/A
 Shard Upgrades & Fusions,Tier 0 Upgrades,,N/A
 Shard Upgrades & Fusions,Tier 1 Upgrades,,N/A
 Shard Upgrades & Fusions,Tier 2 Upgrades,,N/A
@@ -1494,7 +1498,7 @@ Shard Upgrades & Fusions,Doll Powers,,Required: (Master/Trump) Doll Master; Inco
 (Entity) Shard Clusters,Esoteric Analysis,1 | 5 SP,N/A
 (Entity) Shard Clusters,Esoteric Hardening,1 | 5 SP,N/A
 (Entity) Shard Clusters,Esoteric Penetration,1 | 5 SP,N/A
-(Entity) Shard Clusters,[THE MAGUS],5 ,Required: Esoteric Knowledge; Required: Anomalous Phenomenon Detection; Required: Esoteric Analysis; Required: Esoteric Hardening; Required: Esoteric Penetration
+(Entity) Shard Clusters,[THE MAGUS],5 ,Required: Esoteric Integration; Required: Anomalous Phenomenon Detection; Required: Esoteric Analysis; Required: Esoteric Hardening; Required: Esoteric Penetration
 Species and Genetics Powers (Original),Catfolk,5 SP,N/A
 Species and Genetics Powers (Original),Bake-Danuki,20 SP,N/A
 Species and Genetics Powers (Original),Apex Specimen,15 SP,N/A
@@ -1539,6 +1543,7 @@ Species and Genetics Powers (Original),Avali,10 SP,N/A
 Species and Genetics Powers (Original),Dark Archangel,20 SP,N/A
 Species and Genetics Powers (Original),Dragon Dreams,15 SP,N/A
 Species and Genetics Powers (Original),Living Dungeon,40 SP,N/A
+Species and Genetics Powers (Original),Bridge of the Skies and Seas,15 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1642,6 +1647,7 @@ Mental and Psychic Powers (Original),Mind Trick,3 SP,N/A
 Mental and Psychic Powers (Original),Braincell Burner,10 SP,N/A
 Mental and Psychic Powers (Original),Violent Beast,3 SP,N/A
 Mental and Psychic Powers (Original),Afterimages,1 SP,N/A
+Mental and Psychic Powers (Original),Whistleblower,6 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1857,6 +1863,7 @@ Spiritual and Divine Powers (Original),Grand Demonic Art of the Slaughter God,20
 Spiritual and Divine Powers (Original),"Invoke, Seal, and Call",30 SP,N/A
 Spiritual and Divine Powers (Original),Soul Hug,10 SP,N/A
 Spiritual and Divine Powers (Original),The Bargainer's Brand,15 SP,N/A
+Spiritual and Divine Powers (Original),Heart of The Ashen Martyr,25 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
@@ -2049,6 +2056,8 @@ Foundation Powers,Half-Ascended Talent,5 SP,N/A
 Foundation Powers,Blooming Genius,5 SP,N/A
 Foundation Powers,Chakra Opening,15 SP,N/A
 Foundation Powers,Rock Bottom,20 SP,N/A
+Foundation Powers,New Game+,25 SP,N/A
+Foundation Powers,Anathema: That Which Rejects All,25 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2233,6 +2242,7 @@ Miscellaneous Objects of Power,Urahara's Stash (Bleach),10 SP,N/A
 Miscellaneous Objects of Power,Three-Thirds Umbilical Cords (Bloodborne),30 SP,Required: Hunter (Bloodborne)
 Miscellaneous Objects of Power,Golden Chest of Epic Loot (Borderlands),10 SP,N/A
 Miscellaneous Objects of Power,Uni-Mind (Buzz Lightyear of Star Command),10 SP,N/A
+Miscellaneous Objects of Power,Haunted Collection (Creepypasta Mythos),10 SP,N/A
 Miscellaneous Objects of Power,H-Dial (DC Comics),30 SP,N/A
 Miscellaneous Objects of Power,Sigils of the Endless (DC Comics),50 SP,N/A
 Miscellaneous Objects of Power,Psychic Paper (Doctor Who),5 SP| 0 SP,N/A
@@ -2246,8 +2256,8 @@ Miscellaneous Objects of Power,Stigmata (Honkai Impact 3rd),8 SP,N/A
 Miscellaneous Objects of Power,Magic Key (Indian in the Cupboard),25 SP,N/A
 Miscellaneous Objects of Power,Embryo (Infinite Dendrogram),15 SP,N/A
 Miscellaneous Objects of Power,Continental Hotel Membership (John Wick),10 SP,N/A
+Miscellaneous Objects of Power,Saint Corpse Parts (JoJo's Bizarre Adventure),15 SP,N/A
 Miscellaneous Objects of Power,Stand Arrow (JoJo's Bizarre Adventure),5 SP,N/A
-Miscellaneous Objects of Power,Saint Corpse Parts (JJBA),15 SP,N/A
 Miscellaneous Objects of Power,Jumanji & Zathura (Jumanji),10 SP,N/A
 Miscellaneous Objects of Power,Dresden Slate (K Project),20 SP,N/A
 Miscellaneous Objects of Power,The Key of Kings (Kill Six Billion Demons),20 SP,N/A
@@ -2256,22 +2266,22 @@ Miscellaneous Objects of Power,Hexcore (League of Legends),12 SP,N/A
 Miscellaneous Objects of Power,Evolution Cube (Legendary Mechanic),15 SP,N/A
 Miscellaneous Objects of Power,Limited Edition Symbol Fumo (Magical Girl ☆Sym-tan☆),1 SP,N/A
 Miscellaneous Objects of Power,The Chair (Magical Girl ☆Sym-tan☆),55 SP,N/A
-Miscellaneous Objects of Power,Netherite (Minecraft),1 SP,N/A
 Miscellaneous Objects of Power,Black Vortex (Marvel),40 SP,N/A
 Miscellaneous Objects of Power,Cosmic Cube (Marvel),60 SP,N/A
 Miscellaneous Objects of Power,Gravity Stone (Marvel),30 SP,N/A
 Miscellaneous Objects of Power,Totems of the Octessence (Marvel),40 SP,N/A
+Miscellaneous Objects of Power,Netherite (Minecraft),1 SP,N/A
 Miscellaneous Objects of Power,Ninja Kit (Naruto),5 SP,N/A
 Miscellaneous Objects of Power,Polaroid Camera (Polaroid),10 SP,N/A
 Miscellaneous Objects of Power,Der Freischütz E.G.O.: Magic Bullet (Project Moon),15 SP,N/A
+Miscellaneous Objects of Power,Völundr (Record of Ragnarok),15 SP,N/A
 Miscellaneous Objects of Power,Shaped Glass (Risk of Rain 2),1 SP,N/A
 Miscellaneous Objects of Power,110%: SCP-248 (SCP Foundation),5 SP,N/A
+Miscellaneous Objects of Power,Skeleton Key: SCP-005 (SCP Foundation),5 SP,N/A
 Miscellaneous Objects of Power,The Resurrection Cube: SCP 076-1 (SCP Foundation),10 SP,N/A
 Miscellaneous Objects of Power,The Song of Genesis: SCP-407 (SCP Foundation),15 SP,N/A
-Miscellaneous Objects of Power,Skeleton Key: SCP-005 (SCP Foundation),5 SP,N/A
 Miscellaneous Objects of Power,Symphogear (Senki Zesshou Symphogear),15 SP,N/A
 Miscellaneous Objects of Power,Terraria Equipment (Terraria),7 SP,N/A
 Miscellaneous Objects of Power,Daedric Equipment (The Elder Scrolls),5 SP,N/A
 Miscellaneous Objects of Power,The AllSpark (Transformers),25 SP,N/A
-Miscellaneous Objects of Power,Völundr (Record of Ragnarok),15 SP,N/A
 Miscellaneous Objects of Power,Warrant of Trade (Warhammer: 40k),13 SP,N/A
