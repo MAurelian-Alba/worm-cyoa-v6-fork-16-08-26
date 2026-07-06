@@ -217,6 +217,7 @@ Tier 1 - Brute,(Brute/Breaker) Achilles' Body,8 SP,N/A
 Tier 1 - Brute,(Brute/Breaker) Enhanced Physique,8 SP,N/A
 Tier 1 - Brute,(Brute/Breaker) Biological Armory,9 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Power in Numbers,9 SP,N/A
+Tier 1 - Brute,(Brute/Mover) Unyielding Pursuit,9 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Starlight Punch,10 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Stockpile,10 SP,N/A
 Tier 1 - Brute,(Brute) Invulnerable,10 SP,N/A
@@ -343,6 +344,7 @@ Tier 1 - Master,(Master/Stranger) Dark Passenger,5 SP,N/A
 Tier 1 - Master,(Master) Hypnodancer,5 SP,N/A
 Tier 1 - Master,(Master/Trump) Blank Doll,5 SP,N/A
 Tier 1 - Master,(Master/Stranger) Workers,5 SP,N/A
+Tier 1 - Master,(Master) Irresistible Dance,5 SP,N/A
 Tier 1 - Master,(Master/Thinker) Instinct,6 SP,N/A
 Tier 1 - Master,(Master) Ratatouille,6 SP,N/A
 Tier 1 - Master,(Master/Brute) Come at Me Bro!,6 SP,N/A
@@ -469,6 +471,7 @@ Tier 1 - Tinker,(Tinker/Thinker) Martial Arts,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Redundancy,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Traps,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Hyperspecialized,6 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Chassis,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Emotions,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Software,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Quantum Computing,6 SP| 2 SP,N/A
@@ -855,7 +858,9 @@ Tier 1 - Striker,(Striker/Mover) Spatial Rupture,11 SP,N/A
 Tier 1 - Striker,(Striker) Reinforcement,12 SP,N/A
 Tier 1 - Striker,(Striker/Shaker) Jinx,12 SP,N/A
 Tier 1 - Striker,(Striker) Clockstopper,12 SP,N/A
+Tier 1 - Striker,(Striker) Dynamo,12 SP,N/A
 Tier 1 - Striker,"(Striker/Thinker) ""Healer""",14 SP,N/A
+Tier 1 - Striker,(Striker) Black Flash,14 SP,N/A
 Tier 1 - Striker,(Striker/Shaker) Reconstitute,15 SP,N/A
 Tier 1 - Striker,(Striker/Trump) Idol Theory,15 SP,N/A
 Tier 1 - Striker,(Striker) Mutagen,15 SP,N/A
@@ -1531,7 +1536,7 @@ Species and Genetics Powers (Original),Oni,10 SP,N/A
 Species and Genetics Powers (Original),Descendant of the Baobhan Sith,5 SP,N/A
 Species and Genetics Powers (Original),Primeval River-Titan,8 SP,N/A
 Species and Genetics Powers (Original),Half-Dragon,20 SP,N/A
-Species and Genetics Powers (Original),Fylakes Istorias,10 SP,N/A
+Species and Genetics Powers (Original),Fylakes Istorias,5 SP,N/A
 Species and Genetics Powers (Original),Coiling Within,10 SP,N/A
 Species and Genetics Powers (Original),Genetic Anomaly,5 SP,N/A
 Species and Genetics Powers (Original),Body of Royalty,15 SP,N/A
@@ -1544,6 +1549,8 @@ Species and Genetics Powers (Original),Dark Archangel,20 SP,N/A
 Species and Genetics Powers (Original),Dragon Dreams,15 SP,N/A
 Species and Genetics Powers (Original),Living Dungeon,40 SP,N/A
 Species and Genetics Powers (Original),Bridge of the Skies and Seas,15 SP,N/A
+Species and Genetics Powers (Original),Superorganism,25 SP,N/A
+Species and Genetics Powers (Original),The Reaper's Familiar,10 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1691,6 +1698,7 @@ Magic and Mystic Powers (Original),Green Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Red Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Blue Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Black Mage,10 SP,N/A
+Magic and Mystic Powers (Original),Purple Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Battle Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Liber Arcana,10 SP,N/A
 Magic and Mystic Powers (Original),Virga Arcana,2 SP,N/A
@@ -1734,6 +1742,7 @@ Magic and Mystic Powers (Original),Frequency of Magic,10 SP,N/A
 Magic and Mystic Powers (Original),Mana Shield,5 SP,N/A
 Magic and Mystic Powers (Original),Spiritless Bow,5 SP,N/A
 Magic and Mystic Powers (Original),Elemental Core,20 SP,N/A
+Magic and Mystic Powers (Original),Little Helpers,10 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -1864,6 +1873,7 @@ Spiritual and Divine Powers (Original),"Invoke, Seal, and Call",30 SP,N/A
 Spiritual and Divine Powers (Original),Soul Hug,10 SP,N/A
 Spiritual and Divine Powers (Original),The Bargainer's Brand,15 SP,N/A
 Spiritual and Divine Powers (Original),Heart of The Ashen Martyr,25 SP,N/A
+Spiritual and Divine Powers (Original),Guiding Hands of Midas,4 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
@@ -2058,6 +2068,7 @@ Foundation Powers,Chakra Opening,15 SP,N/A
 Foundation Powers,Rock Bottom,20 SP,N/A
 Foundation Powers,New Game+,25 SP,N/A
 Foundation Powers,Anathema: That Which Rejects All,25 SP,N/A
+Foundation Powers,Keeping the Code,3 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2066,6 +2077,7 @@ Foundation Powers,The Nightmare Spell (Shadow Slave),10 SP,N/A
 Foundation Powers,Pioneer of the Stars (Type-Moon),10 SP| 5 SP,N/A
 Foundation Powers,Mystery Slayer (Type-Moon),10 SP,N/A
 Foundation Powers,Imperial Privilege (Type-Moon),10 SP,N/A
+Foundation Powers,Epiphany in the Jaws of Death (Type-Moon),6 SP,N/A
 Foundation Powers,Interface (Dorothy’s Forbidden Grimoire),10 SP,N/A
 Foundation Powers,Girl of Magic (Magical Girl ☆Sym-tan☆),7 SP,N/A
 Foundation Powers,Phase Awakened (Closers),15 SP,N/A
