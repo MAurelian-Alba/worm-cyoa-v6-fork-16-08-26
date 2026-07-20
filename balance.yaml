@@ -86,9 +86,13 @@ groups:
   max_objects: 100
   prefix: group--
   rows:
+  - group--s23p
+- title: Species and Genetic Power Upgrades
+  max_objects: 100
+  prefix: group--
+  rows:
   - group--fqrt
   - group--6jykaj
-  - group--zls0a6
 - title: Magic and Mystic Power Upgrades
   max_objects: 100
   prefix: group--
