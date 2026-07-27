@@ -225,6 +225,7 @@ Tier 1 - Brute,(Brute/Mover) Library Junior,10 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Zenkai Boost,10 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Overdrive Mode,10 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Mang,10 SP,N/A
+Tier 1 - Brute,(Brute) Stronk,10 SP,N/A
 Tier 1 - Brute,(Brute) Phylactery,11 SP,N/A
 Tier 1 - Brute,(Brute/Shaker) Pyrexia,11 SP,N/A
 Tier 1 - Brute,(Brute/Changer) Two Good Arms,12 SP,N/A
@@ -241,6 +242,7 @@ Tier 1 - Brute,(Brute/Trump) Stronger Together,15 SP,N/A
 Tier 1 - Brute,(Brute/Striker) Armor,15 SP,N/A
 Tier 1 - Brute,(Brute) Unbreakable,15 SP,N/A
 Tier 1 - Breaker,(Breaker/Brute) Brainless Behavior,1 SP,N/A
+Tier 1 - Breaker,(Breaker/Stranger) Untouchable Skin,1 SP,N/A
 Tier 1 - Breaker,(Breaker) Immune Response,2 SP,N/A
 Tier 1 - Breaker,(Breaker) Phase,2 SP,N/A
 Tier 1 - Breaker,(Breaker/Thinker) Porous,2 SP,N/A
@@ -357,6 +359,7 @@ Tier 1 - Master,(Master/Brute) Anger Issues,6 SP,N/A
 Tier 1 - Master,(Master) In Your Shadow,6 SP,N/A
 Tier 1 - Master,(Master/Changer) Incubator,6 SP,N/A
 Tier 1 - Master,(Master) Gang Leader,6 SP,N/A
+Tier 1 - Master,(Master/Stranger) Fleeting Obsession,6 SP,N/A
 Tier 1 - Master,(Master) Red Strings,7 SP,N/A
 Tier 1 - Master,(Master) Turn Based RPG,7 SP,N/A
 Tier 1 - Master,(Master/Striker) Forget It,7 SP,N/A
@@ -369,6 +372,7 @@ Tier 1 - Master,(Master/Striker) Pavlov,7 SP,N/A
 Tier 1 - Master,(Master/Thinker) Majority Report,7 SP,N/A
 Tier 1 - Master,(Master/Trump) Heartmaker,7 SP,N/A
 Tier 1 - Master,(Master) Narcissus,7 SP,N/A
+Tier 1 - Master,(Master/Stranger) Owe You One,7 SP,N/A
 Tier 1 - Master,(Master/Striker) Anti-Addictol,8 SP,N/A
 Tier 1 - Master,(Master) Technopathy,8 SP,N/A
 Tier 1 - Master,(Master/Thinker) Poison Ivy,8 SP,N/A
@@ -704,6 +708,7 @@ Tier 1 - Thinker,(Thinker/Trump) Dream Cinephile,4 SP,N/A
 Tier 1 - Thinker,(Thinker) Breaking the Mask,4 SP,N/A
 Tier 1 - Thinker,(Thinker) Deja Vecu,4 SP,N/A
 Tier 1 - Thinker,(Thinker/Trump) Munchkin,4 SP,N/A
+Tier 1 - Thinker,(Thinker/Breaker) Inner Self,4 SP,N/A
 Tier 1 - Thinker,(Thinker) Think Tank,5 SP,N/A
 Tier 1 - Thinker,(Thinker) One or the Other,5 SP,N/A
 Tier 1 - Thinker,(Thinker/Brute) Stolen Muscles,5 SP,N/A
@@ -1655,6 +1660,7 @@ Mental and Psychic Powers (Original),Braincell Burner,10 SP,N/A
 Mental and Psychic Powers (Original),Violent Beast,3 SP,N/A
 Mental and Psychic Powers (Original),Afterimages,1 SP,N/A
 Mental and Psychic Powers (Original),Whistleblower,6 SP,N/A
+Mental and Psychic Powers (Original),Conceptualisation,3 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1743,6 +1749,10 @@ Magic and Mystic Powers (Original),Mana Shield,5 SP,N/A
 Magic and Mystic Powers (Original),Spiritless Bow,5 SP,N/A
 Magic and Mystic Powers (Original),Elemental Core,20 SP,N/A
 Magic and Mystic Powers (Original),Little Helpers,10 SP,N/A
+Magic and Mystic Powers (Original),The Runes of the Hanged God,40 SP,N/A
+Magic and Mystic Powers (Original),Mana Burn,8 SP,N/A
+Magic and Mystic Powers (Original),Arcane Synapse,15 SP,N/A
+Magic and Mystic Powers (Original),Arcane Knight,15 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -1874,6 +1884,7 @@ Spiritual and Divine Powers (Original),Soul Hug,10 SP,N/A
 Spiritual and Divine Powers (Original),The Bargainer's Brand,15 SP,N/A
 Spiritual and Divine Powers (Original),Heart of The Ashen Martyr,25 SP,N/A
 Spiritual and Divine Powers (Original),Guiding Hands of Midas,4 SP,N/A
+Spiritual and Divine Powers (Original),Incarnating Touch,25 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
@@ -1917,6 +1928,7 @@ Technology and Artifice Powers (Original),Civilisation Shaper,15 SP,N/A
 Technology and Artifice Powers (Original),Unrealistic Hacking,5 SP,N/A
 Technology and Artifice Powers (Original),Junkyard Artificer,3 SP,N/A
 Technology and Artifice Powers (Original),Techno-plagiarism,7 SP,N/A
+Technology and Artifice Powers (Original),Techno-Savant,20 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
 Ascension Path,Fae,10 SP,N/A
 Ascension Path,Vampire Lord,15 SP,N/A
@@ -2069,6 +2081,8 @@ Foundation Powers,Rock Bottom,20 SP,N/A
 Foundation Powers,New Game+,25 SP,N/A
 Foundation Powers,Anathema: That Which Rejects All,25 SP,N/A
 Foundation Powers,Keeping the Code,3 SP,N/A
+Foundation Powers,The Snail,25 SP,N/A
+Foundation Powers,Boost-Lock,15 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2278,6 +2292,7 @@ Miscellaneous Objects of Power,Hexcore (League of Legends),12 SP,N/A
 Miscellaneous Objects of Power,Evolution Cube (Legendary Mechanic),15 SP,N/A
 Miscellaneous Objects of Power,Limited Edition Symbol Fumo (Magical Girl ☆Sym-tan☆),1 SP,N/A
 Miscellaneous Objects of Power,The Chair (Magical Girl ☆Sym-tan☆),55 SP,N/A
+Miscellaneous Objects of Power,The Martial God Space (Martial God Space),25 SP,N/A
 Miscellaneous Objects of Power,Black Vortex (Marvel),40 SP,N/A
 Miscellaneous Objects of Power,Cosmic Cube (Marvel),60 SP,N/A
 Miscellaneous Objects of Power,Gravity Stone (Marvel),30 SP,N/A
