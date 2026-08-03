@@ -87,6 +87,7 @@ groups:
   prefix: group--
   rows:
   - group--s23p
+  - group--2wf7ss
 - title: Species and Genetic Power Upgrades
   max_objects: 100
   prefix: group--

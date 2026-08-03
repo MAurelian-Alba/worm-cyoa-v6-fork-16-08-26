@@ -992,6 +992,7 @@ Tier 1 - Trump,(Trump) Exonerate,8 SP,N/A
 Tier 1 - Trump,(Trump/Shaker) Disperse,8 SP,N/A
 Tier 1 - Trump,(Trump) Growth Booster,8 SP,N/A
 Tier 1 - Trump,(Trump) Inversion,8 SP,N/A
+Tier 1 - Trump,(Trump/Thinker) Empowerment Conduit,8 SP,N/A
 Tier 1 - Trump,(Trump/Thinker) Endless Dream,8 SP,N/A
 Tier 1 - Trump,(Trump) Consumables,8 SP,N/A
 Tier 1 - Trump,(Trump/Tinker) Enchantment,9 SP| 3 SP,N/A
@@ -1019,6 +1020,7 @@ Tier 1 - Trump,(Trump) Trophy Hunter,10 SP,N/A
 Tier 1 - Trump,(Trump) Hyperfocused,10 SP,N/A
 Tier 1 - Trump,(Trump) Daimon,10 SP,N/A
 Tier 1 - Trump,(Trump) Third-Rate Tohu,10 SP,N/A
+Tier 1 - Trump,(Trump) Bigger IS Better!,10 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Krampus,11 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Supportive Copier,11 SP,N/A
 Tier 1 - Trump,(Trump) Fighting makes me stronger!,12 SP,N/A
@@ -1885,8 +1887,10 @@ Spiritual and Divine Powers (Original),The Bargainer's Brand,15 SP,N/A
 Spiritual and Divine Powers (Original),Heart of The Ashen Martyr,25 SP,N/A
 Spiritual and Divine Powers (Original),Guiding Hands of Midas,4 SP,N/A
 Spiritual and Divine Powers (Original),Incarnating Touch,25 SP,N/A
+Spiritual and Divine Powers (Original),BURN,35 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
+Technology and Artifice Powers (Original),Biotech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
 Technology and Artifice Powers (Original),Datumplane,5 SP,N/A
 Technology and Artifice Powers (Original),The Celestial Workshop,20 SP,N/A
@@ -2312,3 +2316,4 @@ Miscellaneous Objects of Power,Terraria Equipment (Terraria),7 SP,N/A
 Miscellaneous Objects of Power,Daedric Equipment (The Elder Scrolls),5 SP,N/A
 Miscellaneous Objects of Power,The AllSpark (Transformers),25 SP,N/A
 Miscellaneous Objects of Power,Warrant of Trade (Warhammer: 40k),13 SP,N/A
+Miscellaneous Objects of Power,Conversion Token Generator,15 SP,N/A
