@@ -1,0 +1,47 @@
+name: Package Shard Powers corpus
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/package-shard-powers-corpus.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sparse checkout corpus
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            analysis/shard-powers-v17
+
+      - name: Validate expected corpus
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          summary = json.loads(Path('analysis/shard-powers-v17/summary.json').read_text(encoding='utf-8'))
+          assert summary['counts']['total_records'] == 1397, summary['counts']
+          assert summary['counts']['by_tier'] == {'Tier 1': 1112, 'Tier 2': 216, 'Tier 3': 69}
+          assert summary['checks']['all_expected_rows_resolved_once'] is True
+          assert summary['checks']['no_excluded_rows_selected'] is True
+          assert summary['checks']['unique_nonempty_object_ids_within_corpus'] is True
+          assert summary['checks']['unresolved_references_count'] == 0
+          assert summary['checks']['anomaly_count'] == 0
+          PY
+
+      - name: Upload corpus artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-powers-v17-corpus
+          path: analysis/shard-powers-v17
+          if-no-files-found: error
+          compression-level: 9
+          retention-days: 30
