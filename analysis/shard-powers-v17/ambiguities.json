@@ -1,13 +1,5 @@
 {
-  "extraction_issues": [
-    {
-      "type": "row_resolution",
-      "tier": "Tier 2",
-      "row_id": "zg2f",
-      "expected_matches": 1,
-      "actual_matches": 0
-    }
-  ],
+  "extraction_issues": [],
   "unresolved_references": [],
   "record_anomalies": [],
   "notes": [

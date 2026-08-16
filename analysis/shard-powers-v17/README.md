@@ -1,8 +1,8 @@
 # Shard Powers Tier 1-3 corpus (Project V17)
 
-Total records: **1113**  
-Tier 1: **1044**  
-Tier 2: **0**  
+Total records: **1397**  
+Tier 1: **1112**  
+Tier 2: **216**  
 Tier 3: **69**  
 Unresolved references: **0**  
 Audit anomalies: **0**
