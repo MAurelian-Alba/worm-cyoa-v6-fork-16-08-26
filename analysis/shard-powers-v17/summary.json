@@ -1,0 +1,254 @@
+{
+  "source": {
+    "repository": "MAurelian-Alba/worm-cyoa-v6-fork-16-08-26",
+    "upstream_repository": "ltouroumov/worm-cyoa-v6-fork",
+    "file": "project-v17.json",
+    "size_bytes": 56919988,
+    "sha256": "b76b0efe4c9c8b0390c52cca5263a9a9252b15c623602e5f4b973c3ae763ba0d"
+  },
+  "scope": {
+    "included": {
+      "Tier 1": [
+        [
+          "Mover",
+          "tc7n"
+        ],
+        [
+          "Shaker",
+          "wtn7"
+        ],
+        [
+          "Brute",
+          "vs8q"
+        ],
+        [
+          "Master",
+          "ghw4"
+        ],
+        [
+          "Tinker",
+          "nwgn"
+        ],
+        [
+          "Blaster",
+          "z0zb"
+        ],
+        [
+          "Thinker",
+          "4x5f"
+        ],
+        [
+          "Striker",
+          "xu5q"
+        ],
+        [
+          "Changer",
+          "b7r5"
+        ],
+        [
+          "Trump",
+          "bbyi"
+        ],
+        [
+          "Stranger",
+          "hyzg"
+        ]
+      ],
+      "Tier 2": [
+        [
+          "All",
+          "zg2f"
+        ]
+      ],
+      "Tier 3": [
+        [
+          "All",
+          "e018"
+        ]
+      ]
+    },
+    "explicitly_excluded": {
+      "Power Copy": [
+        "jsch"
+      ],
+      "Lucky Mutations": [
+        "zj4c"
+      ],
+      "Doll": [
+        "wy6p",
+        "xe94"
+      ],
+      "Endbringer (Master)": [
+        "o58j",
+        "qd5r"
+      ],
+      "Endbringer (Changer)": [
+        "jmco",
+        "ab0a"
+      ],
+      "Upgrades": [
+        "hd9l"
+      ],
+      "Fusions": [
+        "qldk"
+      ]
+    },
+    "selected_row_ids": [
+      "4x5f",
+      "b7r5",
+      "bbyi",
+      "e018",
+      "ghw4",
+      "hyzg",
+      "nwgn",
+      "tc7n",
+      "vs8q",
+      "wtn7",
+      "xu5q",
+      "z0zb",
+      "zg2f"
+    ]
+  },
+  "counts": {
+    "total_records": 1113,
+    "by_tier": {
+      "Tier 1": 1044,
+      "Tier 3": 69
+    },
+    "by_row_id": {
+      "4x5f": 101,
+      "b7r5": 72,
+      "bbyi": 106,
+      "e018": 69,
+      "ghw4": 119,
+      "hyzg": 62,
+      "nwgn": 156,
+      "tc7n": 53,
+      "vs8q": 83,
+      "wtn7": 107,
+      "xu5q": 99,
+      "z0zb": 86
+    },
+    "by_classification": {
+      "Blaster": 46,
+      "Blaster/Brute": 2,
+      "Blaster/Changer": 2,
+      "Blaster/Master": 4,
+      "Blaster/Mover": 2,
+      "Blaster/Shaker": 11,
+      "Blaster/Striker": 7,
+      "Blaster/Thinker": 3,
+      "Blaster/Tinker": 2,
+      "Blaster/Trump": 10,
+      "Breaker": 1,
+      "Breaker/Blaster": 1,
+      "Breaker/Changer": 1,
+      "Breaker/Shaker": 3,
+      "Breaker/Trump": 4,
+      "Brute": 46,
+      "Brute/Blaster": 2,
+      "Brute/Breaker": 7,
+      "Brute/Changer": 3,
+      "Brute/Master": 2,
+      "Brute/Mover": 4,
+      "Brute/Shaker": 6,
+      "Brute/Striker": 3,
+      "Brute/Thinker": 2,
+      "Brute/Trump": 13,
+      "Changer": 27,
+      "Changer/Blaster": 1,
+      "Changer/Breaker": 4,
+      "Changer/Brute": 15,
+      "Changer/Master": 6,
+      "Changer/Mover": 2,
+      "Changer/Stranger": 6,
+      "Changer/Striker": 2,
+      "Changer/Thinker": 1,
+      "Changer/Trump": 10,
+      "Master": 63,
+      "Master/Breaker": 3,
+      "Master/Brute": 4,
+      "Master/Changer": 1,
+      "Master/Mover": 2,
+      "Master/Shaker": 3,
+      "Master/Stranger": 10,
+      "Master/Striker": 6,
+      "Master/Thinker": 15,
+      "Master/Tinker": 3,
+      "Master/Trump": 14,
+      "Mover": 24,
+      "Mover/Breaker": 6,
+      "Mover/Brute": 2,
+      "Mover/Changer": 1,
+      "Mover/Master": 2,
+      "Mover/Shaker": 8,
+      "Mover/Stranger": 1,
+      "Mover/Striker": 7,
+      "Mover/Thinker": 5,
+      "Mover/Trump": 1,
+      "Shaker": 50,
+      "Shaker/Blaster": 4,
+      "Shaker/Breaker": 6,
+      "Shaker/Brute": 5,
+      "Shaker/Changer": 2,
+      "Shaker/Master": 16,
+      "Shaker/Mover": 3,
+      "Shaker/Stranger": 4,
+      "Shaker/Striker": 8,
+      "Shaker/Thinker": 11,
+      "Shaker/Tinker": 1,
+      "Shaker/Trump": 9,
+      "Stranger": 37,
+      "Stranger/Breaker": 3,
+      "Stranger/Brute": 3,
+      "Stranger/Changer": 1,
+      "Stranger/Master": 11,
+      "Stranger/Shaker": 5,
+      "Stranger/Striker": 1,
+      "Stranger/Thinker": 4,
+      "Stranger/Trump": 1,
+      "Striker": 52,
+      "Striker/Blaster": 4,
+      "Striker/Breaker": 1,
+      "Striker/Brute": 3,
+      "Striker/Changer": 3,
+      "Striker/Master": 4,
+      "Striker/Mover": 3,
+      "Striker/Shaker": 7,
+      "Striker/Stranger": 1,
+      "Striker/Thinker": 3,
+      "Striker/Tinker": 4,
+      "Striker/Trump": 15,
+      "Thinker": 79,
+      "Thinker/Blaster": 1,
+      "Thinker/Breaker": 1,
+      "Thinker/Brute": 4,
+      "Thinker/Changer": 1,
+      "Thinker/Master": 7,
+      "Thinker/Mover": 4,
+      "Thinker/Striker": 5,
+      "Thinker/Trump": 6,
+      "Tinker": 137,
+      "Tinker/Master": 4,
+      "Tinker/Striker": 2,
+      "Tinker/Thinker": 9,
+      "Tinker/Trump": 8,
+      "Trump": 84,
+      "Trump/Brute": 5,
+      "Trump/Changer": 2,
+      "Trump/Master": 3,
+      "Trump/Shaker": 5,
+      "Trump/Stranger": 2,
+      "Trump/Striker": 6,
+      "Trump/Thinker": 8,
+      "Trump/Tinker": 3
+    }
+  },
+  "checks": {
+    "all_expected_rows_resolved_once": false,
+    "no_excluded_rows_selected": true,
+    "unique_nonempty_object_ids_within_corpus": true,
+    "unresolved_references_count": 0,
+    "anomaly_count": 0
+  }
+}

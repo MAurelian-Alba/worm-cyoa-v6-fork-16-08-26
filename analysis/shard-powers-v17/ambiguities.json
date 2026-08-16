@@ -1,0 +1,20 @@
+{
+  "extraction_issues": [
+    {
+      "type": "row_resolution",
+      "tier": "Tier 2",
+      "row_id": "zg2f",
+      "expected_matches": 1,
+      "actual_matches": 0
+    }
+  ],
+  "unresolved_references": [],
+  "record_anomalies": [],
+  "notes": [
+    "Rows are selected by IDs from cyoa/md_export/config/powers/shard.py, not by fuzzy title matching.",
+    "Embedded addons are retained inside parent records and are not counted as separate base powers.",
+    "Every score entry is retained; conditional score entries are marked in cost_summary.",
+    "OR and non-ID conditions are preserved verbatim in complex_conditions.",
+    "Media fields and embedded media data URLs are omitted; semantic text and conditions are retained."
+  ]
+}
