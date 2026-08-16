@@ -1,0 +1,38 @@
+name: Export Shard Powers corpus (sparse)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/export-shard-powers-sparse.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sparse checkout required files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            project-v17.json
+            analysis-tools/export_shard_powers_corpus.py
+            .github/workflows/export-shard-powers-sparse.yml
+            analysis/shard-powers-v17
+
+      - name: Extract Tier 1-3 base Shard Powers
+        run: python analysis-tools/export_shard_powers_corpus.py
+
+      - name: Commit generated corpus
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse analysis/shard-powers-v17
+          git diff --cached --quiet && exit 0
+          git commit -m 'Export Shard Powers Tier 1-3 corpus'
+          git push
