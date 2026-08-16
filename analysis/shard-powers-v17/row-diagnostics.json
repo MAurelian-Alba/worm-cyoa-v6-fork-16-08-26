@@ -1,0 +1,1636 @@
+{
+  "root_row_count": 286,
+  "rows_with_tier_or_shard_in_title": [
+    {
+      "row_index": 32,
+      "row_id": "ak15",
+      "row_title": "Shard Type",
+      "object_count": 3,
+      "first_titles": [
+        "Shard of the Warrior Entity",
+        "Shard of the Wanderer",
+        "Shard of the Thinker Entity"
+      ],
+      "last_titles": [
+        "Shard of the Warrior Entity",
+        "Shard of the Wanderer",
+        "Shard of the Thinker Entity"
+      ]
+    },
+    {
+      "row_index": 33,
+      "row_id": "6gqo",
+      "row_title": "Shard Ranking",
+      "object_count": 3,
+      "first_titles": [
+        "Normal",
+        "Vital",
+        "Noble"
+      ],
+      "last_titles": [
+        "Normal",
+        "Vital",
+        "Noble"
+      ]
+    },
+    {
+      "row_index": 34,
+      "row_id": "2y41",
+      "row_title": "Shard Essences",
+      "object_count": 3,
+      "first_titles": [
+        "Essence of a Shard (Normal)",
+        "Essence of a Shard (Vital)",
+        "Essence of a Shard (Noble)"
+      ],
+      "last_titles": [
+        "Essence of a Shard (Normal)",
+        "Essence of a Shard (Vital)",
+        "Essence of a Shard (Noble)"
+      ]
+    },
+    {
+      "row_index": 36,
+      "row_id": "9phk",
+      "row_title": "Shard Relationship",
+      "object_count": 3,
+      "first_titles": [
+        "Hostile",
+        "Neutral",
+        "Friendly"
+      ],
+      "last_titles": [
+        "Hostile",
+        "Neutral",
+        "Friendly"
+      ]
+    },
+    {
+      "row_index": 37,
+      "row_id": "gmox",
+      "row_title": "Shard Deviancy",
+      "object_count": 24,
+      "first_titles": [
+        "Negentropy",
+        "Power Supply",
+        "Esoteric Knowledge",
+        "Pocket Shard",
+        "The Prototype"
+      ],
+      "last_titles": [
+        "Guided Growth",
+        "Combat-Oriented",
+        "Riding Shotgun",
+        "Mini-Hub Core",
+        "Pioneer"
+      ]
+    },
+    {
+      "row_index": 38,
+      "row_id": "zk33",
+      "row_title": "Shard Influence",
+      "object_count": 8,
+      "first_titles": [
+        "Irritable",
+        "Wrathful",
+        "Battle Hungry",
+        "Blood Thirsty",
+        "Mental Disorder"
+      ],
+      "last_titles": [
+        "Blood Thirsty",
+        "Mental Disorder",
+        "Relatability",
+        "Not so Gentle Push",
+        "Yandere Shard"
+      ]
+    },
+    {
+      "row_index": 39,
+      "row_id": "ixp9",
+      "row_title": "Shard Malfunctions",
+      "object_count": 9,
+      "first_titles": [
+        "How do I do That Again?",
+        "Practice Makes Perfect",
+        "Cauldron",
+        "Nosebleed",
+        "Low Power"
+      ],
+      "last_titles": [
+        "Low Power",
+        "Hair Trigger",
+        "Wrong Interface",
+        "Anti-Manton",
+        "Loading..."
+      ]
+    },
+    {
+      "row_index": 40,
+      "row_id": "caji",
+      "row_title": "Shard Assignments",
+      "object_count": 7,
+      "first_titles": [
+        "Cluster Breaker",
+        "Overthinker",
+        "Rollout!",
+        "Unboxing",
+        "Counselling"
+      ],
+      "last_titles": [
+        "Rollout!",
+        "Unboxing",
+        "Counselling",
+        "Spanner",
+        "Manton’s Folly"
+      ]
+    },
+    {
+      "row_index": 41,
+      "row_id": "114m",
+      "row_title": "(Shard) Perks and Drawbacks",
+      "object_count": 28,
+      "first_titles": [
+        "Perks",
+        "Influence",
+        "Advise",
+        "Control",
+        "Assuming Direct Control"
+      ],
+      "last_titles": [
+        "The Bond of Life",
+        "Get a Grip",
+        "Telegram",
+        "Crippled",
+        "Infection Detected"
+      ]
+    },
+    {
+      "row_index": 67,
+      "row_id": "4dzp",
+      "row_title": "Shard Powers",
+      "object_count": 7,
+      "first_titles": [
+        "Tier 0",
+        "Tier 1",
+        "Tier 2",
+        "Tier 3",
+        "Power Copy"
+      ],
+      "last_titles": [
+        "Tier 2",
+        "Tier 3",
+        "Power Copy",
+        "Lucky Mutations",
+        "Shard Upgrades & Fusions"
+      ]
+    },
+    {
+      "row_index": 68,
+      "row_id": "dn8o",
+      "row_title": "Shardless Powers",
+      "object_count": 16,
+      "first_titles": [
+        "ALL",
+        "Lesser Powers",
+        "Physical Powers",
+        "Species and Genetics Powers",
+        "Martial Arts and Techniques Powers"
+      ],
+      "last_titles": [
+        "Foundation Powers",
+        "Keystone Powers",
+        "Paragon Powers",
+        "Objects of Power",
+        "Fusions & Upgrades"
+      ]
+    },
+    {
+      "row_index": 69,
+      "row_id": "h4ce",
+      "row_title": "Shardless Fusions & Upgrades",
+      "object_count": 16,
+      "first_titles": [
+        "ALL",
+        "Tier 0 / Lesser Powers Upgrades",
+        "Physical Upgrades",
+        "Species and Genetics Upgrades",
+        "Martial Arts and Technique Upgrades"
+      ],
+      "last_titles": [
+        "Foundation Upgrades",
+        "Paragon Upgrades",
+        "Objects of Power Upgrades",
+        "Base Upgrades",
+        "Universal Upgrades"
+      ]
+    },
+    {
+      "row_index": 70,
+      "row_id": "Tier0--Title",
+      "row_title": "Tier 0 / Lesser Powers",
+      "object_count": 0,
+      "first_titles": [],
+      "last_titles": []
+    },
+    {
+      "row_index": 71,
+      "row_id": "group--dljy",
+      "row_title": "Tier 0 / Lesser Powers (Page 1)",
+      "object_count": 100,
+      "first_titles": [
+        "Mover (Reaction)",
+        "Shaker (Minor Telekinesis)",
+        "Shaker (Alarm)",
+        "Striker (Handmade)",
+        "Shaker/Stranger (Privacy)"
+      ],
+      "last_titles": [
+        "Stranger (Internal Intangibility)",
+        "Brute (Orange Bone Marrow)",
+        "Brute/Stranger (Stomach Storage)",
+        "Stranger (Voices Are Like Onions)",
+        "Thinker (Dialogue)"
+      ]
+    },
+    {
+      "row_index": 72,
+      "row_id": "group--te9w19",
+      "row_title": "Tier 0 / Lesser Powers (Page 2)",
+      "object_count": 88,
+      "first_titles": [
+        "Brute (Spongey Organs)",
+        "Striker (Finger Food)",
+        "Changer (Chroma Hair)",
+        "Blaster (Projectile Vomit)",
+        "Striker (Bite-Sized Portals)"
+      ],
+      "last_titles": [
+        "Stranger (Phantasm)",
+        "Blaster (Party Popper)",
+        "Thinker (Schemer)",
+        "Thinker/Breaker (Emergency Button)",
+        "Brute (Dual Hearts)"
+      ]
+    },
+    {
+      "row_index": 73,
+      "row_id": "kgqo",
+      "row_title": "Tier 1 - Classifications",
+      "object_count": 13,
+      "first_titles": [
+        "ALL",
+        "Mover",
+        "Shaker",
+        "Brute",
+        "Breaker"
+      ],
+      "last_titles": [
+        "Thinker",
+        "Striker",
+        "Changer",
+        "Trump",
+        "Stranger"
+      ]
+    },
+    {
+      "row_index": 74,
+      "row_id": "tc7n",
+      "row_title": "Tier 1 - Mover",
+      "object_count": 53,
+      "first_titles": [
+        "(Mover/Breaker) Skater",
+        "(Mover) Featherweight",
+        "(Mover) Fast as a Hedgehog",
+        "(Mover) Flying like a Chicken",
+        "(Mover) Rail"
+      ],
+      "last_titles": [
+        "(Mover/Stranger) Shadow Diver",
+        "(Mover/Master) Let The Feathers Fly",
+        "(Mover/Breaker) I Believe I Can Fly",
+        "(Mover) Raven",
+        "(Mover/Striker) Dimensional Shunter"
+      ]
+    },
+    {
+      "row_index": 75,
+      "row_id": "wtn7",
+      "row_title": "Tier 1 - Shaker",
+      "object_count": 107,
+      "first_titles": [
+        "(Shaker/Thinker) Spider's Web",
+        "(Shaker/Thinker) Target Acquired",
+        "(Shaker) Ruckus",
+        "(Shaker/Blaster) Bag of Holding",
+        "(Shaker) Room Temperature Mirage"
+      ],
+      "last_titles": [
+        "(Shaker/Trump) Still Aura",
+        "(Shaker/Striker) Holonomic Constraint",
+        "(Shaker/Master) Dungeon Core",
+        "(Shaker/Master) Tower Defence",
+        "(Shaker) Vault of the Modern Era"
+      ]
+    },
+    {
+      "row_index": 76,
+      "row_id": "vs8q",
+      "row_title": "Tier 1 - Brute",
+      "object_count": 83,
+      "first_titles": [
+        "(Brute/Trump) Spartans Die Standing",
+        "(Brute) Vampire",
+        "(Brute) Lifesteal",
+        "(Brute) Scarred Healing",
+        "(Brute) No, I am Spartacus"
+      ],
+      "last_titles": [
+        "(Brute) Rocky",
+        "(Brute/Breaker) The Duke",
+        "(Brute/Trump) Stronger Together",
+        "(Brute/Striker) Armor",
+        "(Brute) Unbreakable"
+      ]
+    },
+    {
+      "row_index": 77,
+      "row_id": "r2u5",
+      "row_title": "Tier 1 - Breaker",
+      "object_count": 68,
+      "first_titles": [
+        "(Breaker/Brute) Brainless Behavior",
+        "(Breaker/Stranger) Untouchable Skin",
+        "(Breaker) Immune Response",
+        "(Breaker) Phase",
+        "(Breaker/Thinker) Porous"
+      ],
+      "last_titles": [
+        "(Breaker) Reconstruction",
+        "(Breaker/Brute) Python",
+        "(Breaker) Friction",
+        "(Breaker/Trump) Still Body",
+        "(Breaker/Trump) Energy Well"
+      ]
+    },
+    {
+      "row_index": 78,
+      "row_id": "ghw4",
+      "row_title": "Tier 1 - Master",
+      "object_count": 119,
+      "first_titles": [
+        "(Master) Geas",
+        "(Master) Illusionary Clone",
+        "(Master) Peat Critters",
+        "(Master) Mascot",
+        "(Master) Uncanny Valley"
+      ],
+      "last_titles": [
+        "(Master) Khepri",
+        "(Master) Monster Maker",
+        "(Master) Shadow Servant",
+        "(Master/Tinker) The Spark of Life",
+        "(Master/Trump) Disgorge"
+      ]
+    },
+    {
+      "row_index": 79,
+      "row_id": "nwgn",
+      "row_title": "Tier 1 - Tinker",
+      "object_count": 156,
+      "first_titles": [
+        "(Tinker) Cannibal",
+        "(Tinker) Jack of All Trades",
+        "(Tinker) Thrown",
+        "(Tinker) Bell",
+        "(Tinker) Detection and Analysis"
+      ],
+      "last_titles": [
+        "(Tinker) Living Metallurgist",
+        "(Tinker) Twilight Tinker",
+        "(Tinker/Trump) Antagonist Builder",
+        "(Tinker) Fastest Tinker Alive",
+        "(Tinker) The Dao of EXPLOSIONS!"
+      ]
+    },
+    {
+      "row_index": 80,
+      "row_id": "z0zb",
+      "row_title": "Tier 1 - Blaster",
+      "object_count": 86,
+      "first_titles": [
+        "(Blaster) Epilepsy",
+        "(Blaster) Super Murder Death Beams",
+        "(Blaster) Boomerang",
+        "(Blaster) Icicle",
+        "(Blaster) Unlimited Ammo Works"
+      ],
+      "last_titles": [
+        "(Blaster/Trump) Rogue-lite Shooter",
+        "(Blaster) Damocles",
+        "(Blaster/Trump) Still Blast",
+        "(Blaster) Laser Bullets",
+        "(Blaster/Shaker) Railgun"
+      ]
+    },
+    {
+      "row_index": 81,
+      "row_id": "4x5f",
+      "row_title": "Tier 1 - Thinker",
+      "object_count": 101,
+      "first_titles": [
+        "(Thinker) New Personal Record",
+        "(Thinker/Mover) SUPER HOT",
+        "(Thinker) X-Ray and Vav",
+        "(Thinker) Primal Perception",
+        "(Thinker) Conspiracy Nut"
+      ],
+      "last_titles": [
+        "(Thinker) Laplace Demon",
+        "(Thinker) Respawn",
+        "(Thinker/Mover) Pathfinder",
+        "(Thinker/Master) Self Image",
+        "(Thinker/Trump) Glass Cannon"
+      ]
+    },
+    {
+      "row_index": 82,
+      "row_id": "xu5q",
+      "row_title": "Tier 1 - Striker",
+      "object_count": 99,
+      "first_titles": [
+        "(Striker) Knockout",
+        "(Striker) Futureport",
+        "(Striker) Gympie-Gympie",
+        "(Striker) Blade Hands",
+        "(Striker/Trump) Critical Hit!"
+      ],
+      "last_titles": [
+        "(Striker/Shaker) Reconstitute",
+        "(Striker/Trump) Idol Theory",
+        "(Striker) Mutagen",
+        "(Striker/Trump) Thorny Rose",
+        "(Striker/Trump) Bandersnatch"
+      ]
+    },
+    {
+      "row_index": 83,
+      "row_id": "b7r5",
+      "row_title": "Tier 1 - Changer",
+      "object_count": 72,
+      "first_titles": [
+        "(Changer) Wolverine",
+        "(Changer) Take a Bite",
+        "(Changer) Headcase(53)",
+        "(Changer) Beauty",
+        "(Changer) Mouthful"
+      ],
+      "last_titles": [
+        "(Changer) Lung? Hah! I'm the real dragon here.",
+        "(Changer/Trump) Chimeric Integration",
+        "(Changer/Trump) Pokémon",
+        "(Changer) Synthesis",
+        "(Changer) Grimm"
+      ]
+    },
+    {
+      "row_index": 84,
+      "row_id": "bbyi",
+      "row_title": "Tier 1 - Trump",
+      "object_count": 106,
+      "first_titles": [
+        "(Trump) Knockoff",
+        "(Trump/Thinker) Third Eye",
+        "(Trump) Anchor",
+        "(Trump) Rainbow",
+        "(Trump/Thinker) Power Sight"
+      ],
+      "last_titles": [
+        "(Trump) Permanent Effect",
+        "(Trump) Some for One",
+        "(Trump/Brute) Looks Matter",
+        "(Trump) Variant Copier",
+        "(Trump/Brute) Selfish Love"
+      ]
+    },
+    {
+      "row_index": 85,
+      "row_id": "hyzg",
+      "row_title": "Tier 1 - Stranger",
+      "object_count": 62,
+      "first_titles": [
+        "(Stranger) Off Record",
+        "(Stranger) The Words Are Silent",
+        "(Stranger/Shaker) Inviolable Shadows",
+        "(Stranger) Again, Sherlock?",
+        "(Stranger/Thinker) Call"
+      ],
+      "last_titles": [
+        "(Stranger) Truth",
+        "(Stranger) Bluff",
+        "(Stranger/Shaker) Sensorium",
+        "(Stranger/Master) Eyes On Me",
+        "(Stranger/Shaker) Simulated Delusion"
+      ]
+    },
+    {
+      "row_index": 92,
+      "row_id": "Tier2Powers--Title",
+      "row_title": "Tier 2 Powers",
+      "object_count": 0,
+      "first_titles": [],
+      "last_titles": []
+    },
+    {
+      "row_index": 93,
+      "row_id": "group--zg2f",
+      "row_title": "Tier 2 Powers (Page 1)",
+      "object_count": 99,
+      "first_titles": [
+        "(Trump) Gamer System",
+        "(Shaker/Blaster) Magnets, Son! How do they work?",
+        "(Master/Stranger) If Anything Were To Happen…",
+        "(Brute) Unlimited Potential",
+        "(Trump/Breaker) Emulation of an Alien Caveman"
+      ],
+      "last_titles": [
+        "(Tinker/Trump) Tinker of Chance",
+        "(Master/Thinker) Memetic King",
+        "(Tinker/Trump) Embrace the Punk, Become PUNK",
+        "(Trump) Fading Star",
+        "(Master) Dragon-Mail"
+      ]
+    },
+    {
+      "row_index": 94,
+      "row_id": "group--fxkg1a",
+      "row_title": "Tier 2 Powers (Page 2)",
+      "object_count": 99,
+      "first_titles": [
+        "(Tinker/Trump) Power Tinker",
+        "(Tinker) Cause And Effects",
+        "(Tinker/Stranger) Might Make Other Tinkers Mad",
+        "(Trump) Connection",
+        "(Trump/Thinker) Split"
+      ],
+      "last_titles": [
+        "(Trump) Just Like Legos",
+        "(Trump) Witchbrew",
+        "(Tinker) Man Fuck Nanites! All My Homies Hate Nanites!",
+        "(Thinker) The Human Perspectives",
+        "(Shaker) Slice & Dice"
+      ]
+    },
+    {
+      "row_index": 95,
+      "row_id": "group--zr3ucz",
+      "row_title": "Tier 2 Powers (Page 3)",
+      "object_count": 18,
+      "first_titles": [
+        "(Trump) Tarot",
+        "(Shaker/Thinker) Epic",
+        "(Trump) Totally Accurate Randomiser Run",
+        "(Trump/Breaker) Sophist",
+        "(Trump/Thinker) Catalog"
+      ],
+      "last_titles": [
+        "(Trump/Striker) Sechen Leech",
+        "(Trump) Offense or Defense",
+        "(Trump) Sword And Shield",
+        "(Shaker/Trump) A Curse Upon Thee",
+        "(Trump/Brute) Resurrective Incarnation"
+      ]
+    },
+    {
+      "row_index": 96,
+      "row_id": "e018",
+      "row_title": "Tier 3 Powers",
+      "object_count": 69,
+      "first_titles": [
+        "(Trump) Manager",
+        "(Trump) Oberon",
+        "(Trump) Prototype",
+        "(Blaster/Striker) Sting",
+        "(Brute) Avalon"
+      ],
+      "last_titles": [
+        "(Tinker/Thinker) Tinker to Victory",
+        "(Blaster/Trump) Disco Ball",
+        "(Breaker/Trump) Herald of the End",
+        "(Blaster/Shaker) Buster",
+        "(Trump) Iconoclast"
+      ]
+    },
+    {
+      "row_index": 97,
+      "row_id": "hd9l",
+      "row_title": "Shard Upgrades & Fusions",
+      "object_count": 12,
+      "first_titles": [
+        "Tier 0 Upgrades",
+        "Tier 1 Upgrades",
+        "Tier 2 Upgrades",
+        "Tier 3 Upgrades",
+        "Power Copy Upgrades"
+      ],
+      "last_titles": [
+        "Shard Fusions",
+        "Shard Powers Options",
+        "(Master) Custom Endbringer",
+        "(Changer) Custom Endbringer",
+        "Doll Powers"
+      ]
+    },
+    {
+      "row_index": 105,
+      "row_id": "0v52",
+      "row_title": "Tier 1 Upgrades Classification",
+      "object_count": 13,
+      "first_titles": [
+        "ALL",
+        "Mover Upgrades",
+        "Shaker Upgrades",
+        "Brute Upgrades",
+        "Breaker Upgrades"
+      ],
+      "last_titles": [
+        "Thinker Upgrades",
+        "Striker Upgrades",
+        "Changer Upgrades",
+        "Trump Upgrades",
+        "Stranger Upgrades"
+      ]
+    },
+    {
+      "row_index": 118,
+      "row_id": "p2tf",
+      "row_title": "Tier 2 Upgrades ",
+      "object_count": 126,
+      "first_titles": [
+        "Persisting Growth",
+        "Multiple Save Slots",
+        "Undo-Redo",
+        "Archmage",
+        "Siralim"
+      ],
+      "last_titles": [
+        "Hijacking",
+        "THATS WHY HES THE GOAT, THE GOAT!",
+        "Physical Simulacrum",
+        "Titanic",
+        "Stave"
+      ]
+    },
+    {
+      "row_index": 119,
+      "row_id": "xhz3",
+      "row_title": "Tier 3 Upgrades ",
+      "object_count": 31,
+      "first_titles": [
+        "Control Plane",
+        "Beta Testing",
+        "Lexing",
+        "Kludged",
+        "Cache"
+      ],
+      "last_titles": [
+        "Extra Slot",
+        "Larger Budget",
+        "Consensus Editor",
+        "Dual Emergence",
+        "Growth and Expansion"
+      ]
+    },
+    {
+      "row_index": 122,
+      "row_id": "ShardFus--Title",
+      "row_title": "Shard Fusions",
+      "object_count": 0,
+      "first_titles": [],
+      "last_titles": []
+    },
+    {
+      "row_index": 123,
+      "row_id": "group--qldk",
+      "row_title": "Shard Fusions (Page 1)",
+      "object_count": 100,
+      "first_titles": [
+        "Biobringer",
+        "Barbas & Buer",
+        "Tsundere",
+        "Babylon Workshop",
+        "Golden Trio and their +1"
+      ],
+      "last_titles": [
+        "Refract Wings",
+        "Force Multiplier",
+        "Paramount Pity Rolls",
+        "Gestalt Simulator",
+        "The Taught"
+      ]
+    },
+    {
+      "row_index": 124,
+      "row_id": "group--fxkh2a",
+      "row_title": "Shard Fusions (Page 2)",
+      "object_count": 100,
+      "first_titles": [
+        "Origin Story",
+        "Making of a Tragedy",
+        "Best Offense Is A Good Defense",
+        "Mental Healing",
+        "Iron Age"
+      ],
+      "last_titles": [
+        "Kinetics & Dynamics",
+        "Erebus",
+        "Aether",
+        "Empire of Sound",
+        "Armamentarium"
+      ]
+    },
+    {
+      "row_index": 125,
+      "row_id": "group--1alus9",
+      "row_title": "Shard Fusions (Page 3)",
+      "object_count": 100,
+      "first_titles": [
+        "One Shot, One Kill",
+        "Zephyr",
+        "Monkey King",
+        "A Butterfly’s Wings",
+        "The Many Winged Angel"
+      ],
+      "last_titles": [
+        "No One’s Problem",
+        "One Second to Midnight",
+        "Let No Crisis Go to Waste",
+        "Eidolon’s Prismatic Copy-Cat",
+        "Chronos"
+      ]
+    },
+    {
+      "row_index": 126,
+      "row_id": "group--9dfy6t",
+      "row_title": "Shard Fusions (Page 4)",
+      "object_count": 60,
+      "first_titles": [
+        "The Beast",
+        "Tentacle Monster",
+        "Winged Tentacles",
+        "Palette",
+        "Be The Cartoon"
+      ],
+      "last_titles": [
+        "The Demesnes-Keeper",
+        "Archive of the Entities",
+        "Mythology",
+        "The Others",
+        "The Ascension"
+      ]
+    },
+    {
+      "row_index": 128,
+      "row_id": "iu9w",
+      "row_title": "(Entity) Shard Clusters",
+      "object_count": 168,
+      "first_titles": [
+        "Administration",
+        "Hierarchical Command",
+        "Distributed Consensus",
+        "Specialisation Routing",
+        "Redundant Array"
+      ],
+      "last_titles": [
+        "Anomalous Phenomenon Detection",
+        "Esoteric Analysis",
+        "Esoteric Hardening",
+        "Esoteric Penetration",
+        "[THE MAGUS]"
+      ]
+    },
+    {
+      "row_index": 188,
+      "row_id": "t0lpupgrades",
+      "row_title": "Tier 0 / Lesser Powers Upgrades",
+      "object_count": 75,
+      "first_titles": [
+        "Combat Meditation",
+        "Dream Stasis",
+        "Spider’s Web",
+        "Gene Lock",
+        "Project Radionoise"
+      ],
+      "last_titles": [
+        "Material Tuning",
+        "Three Letter",
+        "Pocket Wheel",
+        "Unbreakable Bones",
+        "Efficient Template"
+      ]
+    }
+  ],
+  "known_power_matches": [
+    {
+      "row_index": 47,
+      "row_id": "gra1",
+      "row_title": "Perks",
+      "object_count": 107,
+      "matches": [
+        {
+          "object_index": 13,
+          "object_id": "pjir",
+          "title": "All-Seeing Precognition"
+        }
+      ]
+    },
+    {
+      "row_index": 93,
+      "row_id": "group--zg2f",
+      "row_title": "Tier 2 Powers (Page 1)",
+      "object_count": 99,
+      "matches": [
+        {
+          "object_index": 21,
+          "object_id": "kbgq",
+          "title": "(Thinker) Precognition"
+        },
+        {
+          "object_index": 66,
+          "object_id": "kfh5",
+          "title": "(Trump/Striker) Fictiportation"
+        },
+        {
+          "object_index": 97,
+          "object_id": "dxyr",
+          "title": "(Trump) Fading Star"
+        }
+      ]
+    },
+    {
+      "row_index": 98,
+      "row_id": "o58j",
+      "row_title": "(Master) Custom Endbringer Powers",
+      "object_count": 19,
+      "matches": [
+        {
+          "object_index": 0,
+          "object_id": "y1b9",
+          "title": "Precognition"
+        }
+      ]
+    },
+    {
+      "row_index": 100,
+      "row_id": "jmco",
+      "row_title": "(Changer) Custom Endbringer Powers",
+      "object_count": 19,
+      "matches": [
+        {
+          "object_index": 0,
+          "object_id": "oxs1",
+          "title": "Precognition"
+        }
+      ]
+    },
+    {
+      "row_index": 128,
+      "row_id": "iu9w",
+      "row_title": "(Entity) Shard Clusters",
+      "object_count": 168,
+      "matches": [
+        {
+          "object_index": 143,
+          "object_id": "EPowForesight3",
+          "title": "Adversarial Precognition"
+        }
+      ]
+    },
+    {
+      "row_index": 168,
+      "row_id": "umg9",
+      "row_title": "Keystone Powers",
+      "object_count": 128,
+      "matches": [
+        {
+          "object_index": 41,
+          "object_id": "50hu",
+          "title": "Precognition"
+        }
+      ]
+    }
+  ],
+  "neighborhoods": [
+    {
+      "anchor_index": 74,
+      "anchor_id": "tc7n",
+      "rows": [
+        {
+          "row_index": 71,
+          "row_id": "group--dljy",
+          "row_title": "Tier 0 / Lesser Powers (Page 1)",
+          "object_count": 100
+        },
+        {
+          "row_index": 72,
+          "row_id": "group--te9w19",
+          "row_title": "Tier 0 / Lesser Powers (Page 2)",
+          "object_count": 88
+        },
+        {
+          "row_index": 73,
+          "row_id": "kgqo",
+          "row_title": "Tier 1 - Classifications",
+          "object_count": 13
+        },
+        {
+          "row_index": 74,
+          "row_id": "tc7n",
+          "row_title": "Tier 1 - Mover",
+          "object_count": 53
+        },
+        {
+          "row_index": 75,
+          "row_id": "wtn7",
+          "row_title": "Tier 1 - Shaker",
+          "object_count": 107
+        },
+        {
+          "row_index": 76,
+          "row_id": "vs8q",
+          "row_title": "Tier 1 - Brute",
+          "object_count": 83
+        },
+        {
+          "row_index": 77,
+          "row_id": "r2u5",
+          "row_title": "Tier 1 - Breaker",
+          "object_count": 68
+        }
+      ]
+    },
+    {
+      "anchor_index": 75,
+      "anchor_id": "wtn7",
+      "rows": [
+        {
+          "row_index": 72,
+          "row_id": "group--te9w19",
+          "row_title": "Tier 0 / Lesser Powers (Page 2)",
+          "object_count": 88
+        },
+        {
+          "row_index": 73,
+          "row_id": "kgqo",
+          "row_title": "Tier 1 - Classifications",
+          "object_count": 13
+        },
+        {
+          "row_index": 74,
+          "row_id": "tc7n",
+          "row_title": "Tier 1 - Mover",
+          "object_count": 53
+        },
+        {
+          "row_index": 75,
+          "row_id": "wtn7",
+          "row_title": "Tier 1 - Shaker",
+          "object_count": 107
+        },
+        {
+          "row_index": 76,
+          "row_id": "vs8q",
+          "row_title": "Tier 1 - Brute",
+          "object_count": 83
+        },
+        {
+          "row_index": 77,
+          "row_id": "r2u5",
+          "row_title": "Tier 1 - Breaker",
+          "object_count": 68
+        },
+        {
+          "row_index": 78,
+          "row_id": "ghw4",
+          "row_title": "Tier 1 - Master",
+          "object_count": 119
+        }
+      ]
+    },
+    {
+      "anchor_index": 76,
+      "anchor_id": "vs8q",
+      "rows": [
+        {
+          "row_index": 73,
+          "row_id": "kgqo",
+          "row_title": "Tier 1 - Classifications",
+          "object_count": 13
+        },
+        {
+          "row_index": 74,
+          "row_id": "tc7n",
+          "row_title": "Tier 1 - Mover",
+          "object_count": 53
+        },
+        {
+          "row_index": 75,
+          "row_id": "wtn7",
+          "row_title": "Tier 1 - Shaker",
+          "object_count": 107
+        },
+        {
+          "row_index": 76,
+          "row_id": "vs8q",
+          "row_title": "Tier 1 - Brute",
+          "object_count": 83
+        },
+        {
+          "row_index": 77,
+          "row_id": "r2u5",
+          "row_title": "Tier 1 - Breaker",
+          "object_count": 68
+        },
+        {
+          "row_index": 78,
+          "row_id": "ghw4",
+          "row_title": "Tier 1 - Master",
+          "object_count": 119
+        },
+        {
+          "row_index": 79,
+          "row_id": "nwgn",
+          "row_title": "Tier 1 - Tinker",
+          "object_count": 156
+        }
+      ]
+    },
+    {
+      "anchor_index": 78,
+      "anchor_id": "ghw4",
+      "rows": [
+        {
+          "row_index": 75,
+          "row_id": "wtn7",
+          "row_title": "Tier 1 - Shaker",
+          "object_count": 107
+        },
+        {
+          "row_index": 76,
+          "row_id": "vs8q",
+          "row_title": "Tier 1 - Brute",
+          "object_count": 83
+        },
+        {
+          "row_index": 77,
+          "row_id": "r2u5",
+          "row_title": "Tier 1 - Breaker",
+          "object_count": 68
+        },
+        {
+          "row_index": 78,
+          "row_id": "ghw4",
+          "row_title": "Tier 1 - Master",
+          "object_count": 119
+        },
+        {
+          "row_index": 79,
+          "row_id": "nwgn",
+          "row_title": "Tier 1 - Tinker",
+          "object_count": 156
+        },
+        {
+          "row_index": 80,
+          "row_id": "z0zb",
+          "row_title": "Tier 1 - Blaster",
+          "object_count": 86
+        },
+        {
+          "row_index": 81,
+          "row_id": "4x5f",
+          "row_title": "Tier 1 - Thinker",
+          "object_count": 101
+        }
+      ]
+    },
+    {
+      "anchor_index": 79,
+      "anchor_id": "nwgn",
+      "rows": [
+        {
+          "row_index": 76,
+          "row_id": "vs8q",
+          "row_title": "Tier 1 - Brute",
+          "object_count": 83
+        },
+        {
+          "row_index": 77,
+          "row_id": "r2u5",
+          "row_title": "Tier 1 - Breaker",
+          "object_count": 68
+        },
+        {
+          "row_index": 78,
+          "row_id": "ghw4",
+          "row_title": "Tier 1 - Master",
+          "object_count": 119
+        },
+        {
+          "row_index": 79,
+          "row_id": "nwgn",
+          "row_title": "Tier 1 - Tinker",
+          "object_count": 156
+        },
+        {
+          "row_index": 80,
+          "row_id": "z0zb",
+          "row_title": "Tier 1 - Blaster",
+          "object_count": 86
+        },
+        {
+          "row_index": 81,
+          "row_id": "4x5f",
+          "row_title": "Tier 1 - Thinker",
+          "object_count": 101
+        },
+        {
+          "row_index": 82,
+          "row_id": "xu5q",
+          "row_title": "Tier 1 - Striker",
+          "object_count": 99
+        }
+      ]
+    },
+    {
+      "anchor_index": 80,
+      "anchor_id": "z0zb",
+      "rows": [
+        {
+          "row_index": 77,
+          "row_id": "r2u5",
+          "row_title": "Tier 1 - Breaker",
+          "object_count": 68
+        },
+        {
+          "row_index": 78,
+          "row_id": "ghw4",
+          "row_title": "Tier 1 - Master",
+          "object_count": 119
+        },
+        {
+          "row_index": 79,
+          "row_id": "nwgn",
+          "row_title": "Tier 1 - Tinker",
+          "object_count": 156
+        },
+        {
+          "row_index": 80,
+          "row_id": "z0zb",
+          "row_title": "Tier 1 - Blaster",
+          "object_count": 86
+        },
+        {
+          "row_index": 81,
+          "row_id": "4x5f",
+          "row_title": "Tier 1 - Thinker",
+          "object_count": 101
+        },
+        {
+          "row_index": 82,
+          "row_id": "xu5q",
+          "row_title": "Tier 1 - Striker",
+          "object_count": 99
+        },
+        {
+          "row_index": 83,
+          "row_id": "b7r5",
+          "row_title": "Tier 1 - Changer",
+          "object_count": 72
+        }
+      ]
+    },
+    {
+      "anchor_index": 81,
+      "anchor_id": "4x5f",
+      "rows": [
+        {
+          "row_index": 78,
+          "row_id": "ghw4",
+          "row_title": "Tier 1 - Master",
+          "object_count": 119
+        },
+        {
+          "row_index": 79,
+          "row_id": "nwgn",
+          "row_title": "Tier 1 - Tinker",
+          "object_count": 156
+        },
+        {
+          "row_index": 80,
+          "row_id": "z0zb",
+          "row_title": "Tier 1 - Blaster",
+          "object_count": 86
+        },
+        {
+          "row_index": 81,
+          "row_id": "4x5f",
+          "row_title": "Tier 1 - Thinker",
+          "object_count": 101
+        },
+        {
+          "row_index": 82,
+          "row_id": "xu5q",
+          "row_title": "Tier 1 - Striker",
+          "object_count": 99
+        },
+        {
+          "row_index": 83,
+          "row_id": "b7r5",
+          "row_title": "Tier 1 - Changer",
+          "object_count": 72
+        },
+        {
+          "row_index": 84,
+          "row_id": "bbyi",
+          "row_title": "Tier 1 - Trump",
+          "object_count": 106
+        }
+      ]
+    },
+    {
+      "anchor_index": 82,
+      "anchor_id": "xu5q",
+      "rows": [
+        {
+          "row_index": 79,
+          "row_id": "nwgn",
+          "row_title": "Tier 1 - Tinker",
+          "object_count": 156
+        },
+        {
+          "row_index": 80,
+          "row_id": "z0zb",
+          "row_title": "Tier 1 - Blaster",
+          "object_count": 86
+        },
+        {
+          "row_index": 81,
+          "row_id": "4x5f",
+          "row_title": "Tier 1 - Thinker",
+          "object_count": 101
+        },
+        {
+          "row_index": 82,
+          "row_id": "xu5q",
+          "row_title": "Tier 1 - Striker",
+          "object_count": 99
+        },
+        {
+          "row_index": 83,
+          "row_id": "b7r5",
+          "row_title": "Tier 1 - Changer",
+          "object_count": 72
+        },
+        {
+          "row_index": 84,
+          "row_id": "bbyi",
+          "row_title": "Tier 1 - Trump",
+          "object_count": 106
+        },
+        {
+          "row_index": 85,
+          "row_id": "hyzg",
+          "row_title": "Tier 1 - Stranger",
+          "object_count": 62
+        }
+      ]
+    },
+    {
+      "anchor_index": 83,
+      "anchor_id": "b7r5",
+      "rows": [
+        {
+          "row_index": 80,
+          "row_id": "z0zb",
+          "row_title": "Tier 1 - Blaster",
+          "object_count": 86
+        },
+        {
+          "row_index": 81,
+          "row_id": "4x5f",
+          "row_title": "Tier 1 - Thinker",
+          "object_count": 101
+        },
+        {
+          "row_index": 82,
+          "row_id": "xu5q",
+          "row_title": "Tier 1 - Striker",
+          "object_count": 99
+        },
+        {
+          "row_index": 83,
+          "row_id": "b7r5",
+          "row_title": "Tier 1 - Changer",
+          "object_count": 72
+        },
+        {
+          "row_index": 84,
+          "row_id": "bbyi",
+          "row_title": "Tier 1 - Trump",
+          "object_count": 106
+        },
+        {
+          "row_index": 85,
+          "row_id": "hyzg",
+          "row_title": "Tier 1 - Stranger",
+          "object_count": 62
+        },
+        {
+          "row_index": 86,
+          "row_id": "PowerCopy--Title",
+          "row_title": "Power Copy",
+          "object_count": 0
+        }
+      ]
+    },
+    {
+      "anchor_index": 84,
+      "anchor_id": "bbyi",
+      "rows": [
+        {
+          "row_index": 81,
+          "row_id": "4x5f",
+          "row_title": "Tier 1 - Thinker",
+          "object_count": 101
+        },
+        {
+          "row_index": 82,
+          "row_id": "xu5q",
+          "row_title": "Tier 1 - Striker",
+          "object_count": 99
+        },
+        {
+          "row_index": 83,
+          "row_id": "b7r5",
+          "row_title": "Tier 1 - Changer",
+          "object_count": 72
+        },
+        {
+          "row_index": 84,
+          "row_id": "bbyi",
+          "row_title": "Tier 1 - Trump",
+          "object_count": 106
+        },
+        {
+          "row_index": 85,
+          "row_id": "hyzg",
+          "row_title": "Tier 1 - Stranger",
+          "object_count": 62
+        },
+        {
+          "row_index": 86,
+          "row_id": "PowerCopy--Title",
+          "row_title": "Power Copy",
+          "object_count": 0
+        },
+        {
+          "row_index": 87,
+          "row_id": "jsch",
+          "row_title": "Power Copy (Mover, Shaker, Brute)",
+          "object_count": 151
+        }
+      ]
+    },
+    {
+      "anchor_index": 85,
+      "anchor_id": "hyzg",
+      "rows": [
+        {
+          "row_index": 82,
+          "row_id": "xu5q",
+          "row_title": "Tier 1 - Striker",
+          "object_count": 99
+        },
+        {
+          "row_index": 83,
+          "row_id": "b7r5",
+          "row_title": "Tier 1 - Changer",
+          "object_count": 72
+        },
+        {
+          "row_index": 84,
+          "row_id": "bbyi",
+          "row_title": "Tier 1 - Trump",
+          "object_count": 106
+        },
+        {
+          "row_index": 85,
+          "row_id": "hyzg",
+          "row_title": "Tier 1 - Stranger",
+          "object_count": 62
+        },
+        {
+          "row_index": 86,
+          "row_id": "PowerCopy--Title",
+          "row_title": "Power Copy",
+          "object_count": 0
+        },
+        {
+          "row_index": 87,
+          "row_id": "jsch",
+          "row_title": "Power Copy (Mover, Shaker, Brute)",
+          "object_count": 151
+        },
+        {
+          "row_index": 88,
+          "row_id": "aa0u7w",
+          "row_title": "Power Copy (Breaker, Master, Tinker)",
+          "object_count": 124
+        }
+      ]
+    },
+    {
+      "anchor_index": 96,
+      "anchor_id": "e018",
+      "rows": [
+        {
+          "row_index": 93,
+          "row_id": "group--zg2f",
+          "row_title": "Tier 2 Powers (Page 1)",
+          "object_count": 99
+        },
+        {
+          "row_index": 94,
+          "row_id": "group--fxkg1a",
+          "row_title": "Tier 2 Powers (Page 2)",
+          "object_count": 99
+        },
+        {
+          "row_index": 95,
+          "row_id": "group--zr3ucz",
+          "row_title": "Tier 2 Powers (Page 3)",
+          "object_count": 18
+        },
+        {
+          "row_index": 96,
+          "row_id": "e018",
+          "row_title": "Tier 3 Powers",
+          "object_count": 69
+        },
+        {
+          "row_index": 97,
+          "row_id": "hd9l",
+          "row_title": "Shard Upgrades & Fusions",
+          "object_count": 12
+        },
+        {
+          "row_index": 98,
+          "row_id": "o58j",
+          "row_title": "(Master) Custom Endbringer Powers",
+          "object_count": 19
+        },
+        {
+          "row_index": 99,
+          "row_id": "qd5r",
+          "row_title": "(Master) Custom Endbringer Appearance",
+          "object_count": 6
+        }
+      ]
+    }
+  ],
+  "candidate_rows": [
+    {
+      "row_index": 77,
+      "row_id": "r2u5",
+      "row_title": "Tier 1 - Breaker",
+      "object_count": 68,
+      "class_like_ratio": 1.0,
+      "first_titles": [
+        "(Breaker/Brute) Brainless Behavior",
+        "(Breaker/Stranger) Untouchable Skin",
+        "(Breaker) Immune Response",
+        "(Breaker) Phase",
+        "(Breaker/Thinker) Porous",
+        "(Breaker) Gomu Gomu no Mi",
+        "(Breaker) Balancing Act",
+        "(Breaker/Mover) Bullet",
+        "(Breaker/Brute) Odd Proportions",
+        "(Breaker) Lightshow"
+      ]
+    },
+    {
+      "row_index": 88,
+      "row_id": "aa0u7w",
+      "row_title": "Power Copy (Breaker, Master, Tinker)",
+      "object_count": 124,
+      "class_like_ratio": 0.9758064516129032,
+      "first_titles": [
+        "Power Copy Breaker",
+        "(Breaker) Prancer",
+        "(Breaker) Cradlegrave",
+        "(Breaker/Mover) Bloodplay",
+        "(Breaker/Shaker) Disjoint",
+        "(Breaker) Cleat",
+        "(Breaker) Shadow Stalker",
+        "(Breaker) Caryatid",
+        "(Breaker) Koschei",
+        "(Breaker/Striker) Wendigo"
+      ]
+    },
+    {
+      "row_index": 89,
+      "row_id": "yyu69c",
+      "row_title": "Power Copy (Blaster, Thinker, Striker)",
+      "object_count": 132,
+      "class_like_ratio": 0.9772727272727273,
+      "first_titles": [
+        "Power Copy Blaster",
+        "(Blaster) Ala",
+        "(Blaster) Cassiterite",
+        "(Blaster) Grapnel",
+        "(Blaster) Lightstar",
+        "(Blaster) Rifle",
+        "(Blaster) Slingstone",
+        "(Blaster) Smokey Bandit",
+        "(Blaster) Starlet",
+        "(Blaster/Master) Aroa Vasil"
+      ]
+    },
+    {
+      "row_index": 90,
+      "row_id": "ct66qc",
+      "row_title": "Power Copy (Changer, Trump, Stranger)",
+      "object_count": 61,
+      "class_like_ratio": 0.9508196721311475,
+      "first_titles": [
+        "Power Copy Changer",
+        "(Changer) Oliver",
+        "(Changer) Teacup",
+        "(Changer) Genoscythe",
+        "(Changer) Seashell",
+        "(Changer) Chugalug",
+        "(Changer/Stranger) Matryoshka",
+        "(Changer/Brute) Sightly",
+        "(Changer) Mog",
+        "(Changer) Mush"
+      ]
+    },
+    {
+      "row_index": 93,
+      "row_id": "group--zg2f",
+      "row_title": "Tier 2 Powers (Page 1)",
+      "object_count": 99,
+      "class_like_ratio": 1.0,
+      "first_titles": [
+        "(Trump) Gamer System",
+        "(Shaker/Blaster) Magnets, Son! How do they work?",
+        "(Master/Stranger) If Anything Were To Happen…",
+        "(Brute) Unlimited Potential",
+        "(Trump/Breaker) Emulation of an Alien Caveman",
+        "(Breaker/Trump) Cronus",
+        "(Brute) Typhon",
+        "(Changer) The End-Becomer",
+        "(Master) Bringer of the End",
+        "(Shaker) Inviolable"
+      ]
+    },
+    {
+      "row_index": 94,
+      "row_id": "group--fxkg1a",
+      "row_title": "Tier 2 Powers (Page 2)",
+      "object_count": 99,
+      "class_like_ratio": 1.0,
+      "first_titles": [
+        "(Tinker/Trump) Power Tinker",
+        "(Tinker) Cause And Effects",
+        "(Tinker/Stranger) Might Make Other Tinkers Mad",
+        "(Trump) Connection",
+        "(Trump/Thinker) Split",
+        "(Breaker/Master) Eldritch",
+        "(Breaker/Stranger) Vanish",
+        "(Shaker/Stranger) Call of Oblivion",
+        "(Stranger/Trump) Exchange Broker",
+        "(Master/Trump) Multiversal Emulator"
+      ]
+    },
+    {
+      "row_index": 95,
+      "row_id": "group--zr3ucz",
+      "row_title": "Tier 2 Powers (Page 3)",
+      "object_count": 18,
+      "class_like_ratio": 1.0,
+      "first_titles": [
+        "(Trump) Tarot",
+        "(Shaker/Thinker) Epic",
+        "(Trump) Totally Accurate Randomiser Run",
+        "(Trump/Breaker) Sophist",
+        "(Trump/Thinker) Catalog",
+        "(Striker/Tinker) Cargo Cult",
+        "(Master/Trump) Evoker",
+        "(Trump) Queen",
+        "(Striker/Trump) Karma",
+        "(Tinker/Striker) Origami"
+      ]
+    }
+  ]
+}
