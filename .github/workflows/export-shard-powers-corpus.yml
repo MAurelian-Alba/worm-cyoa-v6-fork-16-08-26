@@ -1,0 +1,410 @@
+name: Export Shard Powers corpus
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/export-shard-powers-corpus.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Extract Tier 1-3 base Shard Powers
+        shell: bash
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+
+          import csv
+          import hashlib
+          import html
+          import json
+          import re
+          from collections import Counter, defaultdict
+          from copy import deepcopy
+          from pathlib import Path
+
+          SOURCE = Path('project-v17.json')
+          OUT = Path('analysis/shard-powers-v17')
+          OUT.mkdir(parents=True, exist_ok=True)
+
+          TIER_ROWS = {
+              'Tier 1': [
+                  ('Mover', 'tc7n'),
+                  ('Shaker', 'wtn7'),
+                  ('Brute', 'vs8q'),
+                  ('Master', 'ghw4'),
+                  ('Tinker', 'nwgn'),
+                  ('Blaster', 'z0zb'),
+                  ('Thinker', '4x5f'),
+                  ('Striker', 'xu5q'),
+                  ('Changer', 'b7r5'),
+                  ('Trump', 'bbyi'),
+                  ('Stranger', 'hyzg'),
+              ],
+              'Tier 2': [('All', 'zg2f')],
+              'Tier 3': [('All', 'e018')],
+          }
+
+          EXCLUDED_ROWS = {
+              'Power Copy': ['jsch'],
+              'Lucky Mutations': ['zj4c'],
+              'Doll': ['wy6p', 'xe94'],
+              'Endbringer (Master)': ['o58j', 'qd5r'],
+              'Endbringer (Changer)': ['jmco', 'ab0a'],
+              'Upgrades': ['hd9l'],
+              'Fusions': ['qldk'],
+          }
+
+          project = json.loads(SOURCE.read_text(encoding='utf-8'))
+          rows = project.get('rows', [])
+          point_types = {p.get('id'): p for p in project.get('pointTypes', [])}
+
+          rows_by_id = defaultdict(list)
+          row_index = {}
+          objects_by_id = defaultdict(list)
+          for ri, row in enumerate(rows):
+              rid = row.get('id', '')
+              rows_by_id[rid].append(row)
+              row_index[id(row)] = ri
+              for oi, obj in enumerate(row.get('objects', [])):
+                  objects_by_id[obj.get('id', '')].append({
+                      'title': obj.get('title', ''),
+                      'row_id': rid,
+                      'row_title': row.get('title', ''),
+                      'row_index': ri,
+                      'object_index': oi,
+                  })
+
+          def compact_ref(object_id: str) -> dict:
+              matches = objects_by_id.get(object_id, [])
+              if not matches:
+                  return {'id': object_id, 'resolved': False, 'matches': []}
+              return {'id': object_id, 'resolved': True, 'matches': matches}
+
+          def strip_html(value: str) -> str:
+              if not value:
+                  return ''
+              value = re.sub(r'(?i)<br\s*/?>', '\n', value)
+              value = re.sub(r'(?i)</p\s*>', '\n\n', value)
+              value = re.sub(r'(?i)</li\s*>', '\n', value)
+              value = re.sub(r'<[^>]+>', '', value)
+              value = html.unescape(value)
+              value = value.replace('\r\n', '\n').replace('\r', '\n')
+              value = re.sub(r'[ \t]+\n', '\n', value)
+              value = re.sub(r'\n{3,}', '\n\n', value)
+              return value.strip()
+
+          MEDIA_KEYS = {
+              'image', 'imageurl', 'image_url', 'img', 'src', 'picture',
+              'audio', 'video', 'thumbnail', 'backgroundimage', 'background_image',
+          }
+
+          def text_safe(value, key=''):
+              """Preserve semantic JSON while dropping embedded/linked media payloads."""
+              if isinstance(value, dict):
+                  result = {}
+                  for k, v in value.items():
+                      kl = k.lower().replace('-', '').replace('_', '')
+                      if kl in {x.replace('_', '') for x in MEDIA_KEYS}:
+                          continue
+                      if isinstance(v, str) and len(v) > 5000 and (
+                          v.startswith('data:image') or v.startswith('data:audio') or v.startswith('data:video')
+                      ):
+                          continue
+                      result[k] = text_safe(v, k)
+                  return result
+              if isinstance(value, list):
+                  return [text_safe(v, key) for v in value]
+              return value
+
+          def walk_conditions(items):
+              required_ids = []
+              incompatible_ids = []
+              complex_items = []
+              for item in items or []:
+                  typ = item.get('type')
+                  required = item.get('required')
+                  if typ == 'id' and item.get('reqId'):
+                      if required:
+                          required_ids.append(item['reqId'])
+                      else:
+                          incompatible_ids.append(item['reqId'])
+                  elif typ == 'or':
+                      refs = [x.get('req') for x in item.get('orRequired', []) if x.get('req')]
+                      complex_items.append({
+                          'kind': 'OR_REQUIRED' if required else 'OR_CONDITION',
+                          'ids': refs,
+                          'resolved': [compact_ref(x) for x in refs],
+                          'raw': text_safe(item),
+                      })
+                  else:
+                      complex_items.append({'kind': typ or 'unknown', 'raw': text_safe(item)})
+              return required_ids, incompatible_ids, complex_items
+
+          def score_summary(scores):
+              parts = []
+              for score in scores or []:
+                  pid = score.get('id', '')
+                  value = score.get('value', '')
+                  pt = point_types.get(pid, {})
+                  label = pt.get('name') or pt.get('afterText') or pid
+                  reqs = score.get('requireds') or []
+                  suffix = ' [conditional]' if reqs else ''
+                  parts.append(f'{value} {label}{suffix}'.strip())
+              return ' | '.join(parts)
+
+          def classification_from_title(title: str, fallback: str) -> str:
+              m = re.match(r'^\s*[\[(]([^\])]+)[\])]', title or '')
+              if m:
+                  return m.group(1).strip()
+              return fallback
+
+          records = []
+          extraction_issues = []
+          selected_row_ids = set()
+          for tier, entries in TIER_ROWS.items():
+              for class_group, rid in entries:
+                  selected_row_ids.add(rid)
+                  matches = rows_by_id.get(rid, [])
+                  if len(matches) != 1:
+                      extraction_issues.append({
+                          'type': 'row_resolution', 'tier': tier, 'row_id': rid,
+                          'expected_matches': 1, 'actual_matches': len(matches),
+                      })
+                      continue
+                  row = matches[0]
+                  ri = row_index[id(row)]
+                  for oi, obj in enumerate(row.get('objects', [])):
+                      title = obj.get('title', '')
+                      description_html = obj.get('text') or obj.get('description') or ''
+                      required_ids, incompatible_ids, complex_conditions = walk_conditions(obj.get('requireds', []))
+
+                      scores = []
+                      for score in obj.get('scores', []) or []:
+                          score_copy = text_safe(score)
+                          pid = score.get('id')
+                          pt = point_types.get(pid, {})
+                          score_copy['point_type'] = {
+                              'id': pid,
+                              'name': pt.get('name'),
+                              'suffix': pt.get('afterText'),
+                              'starting_sum': pt.get('startingSum'),
+                          }
+                          sr, si, sc = walk_conditions(score.get('requireds', []))
+                          score_copy['resolved_required'] = [compact_ref(x) for x in sr]
+                          score_copy['resolved_incompatible'] = [compact_ref(x) for x in si]
+                          score_copy['complex_conditions'] = sc
+                          scores.append(score_copy)
+
+                      addons = []
+                      for ai, addon in enumerate(obj.get('addons', []) or []):
+                          ar, ainc, ac = walk_conditions(addon.get('requireds', []))
+                          addons.append({
+                              'addon_index': ai,
+                              'title': addon.get('title', ''),
+                              'description_html': addon.get('text') or addon.get('description') or '',
+                              'description_plain': strip_html(addon.get('text') or addon.get('description') or ''),
+                              'requirements_raw': text_safe(addon.get('requireds', [])),
+                              'required': [compact_ref(x) for x in ar],
+                              'incompatible': [compact_ref(x) for x in ainc],
+                              'complex_conditions': ac,
+                              'scores': text_safe(addon.get('scores', [])),
+                              'raw_text_safe': text_safe(addon),
+                          })
+
+                      record = {
+                          'tier': tier,
+                          'class_group': class_group,
+                          'classification': classification_from_title(title, class_group),
+                          'structural_path': (
+                              f'Project V17/Powers/Shard/{tier}/{class_group}'
+                              if tier == 'Tier 1'
+                              else f'Project V17/Powers/Shard/{tier}'
+                          ),
+                          'row_id': rid,
+                          'row_title': row.get('title', ''),
+                          'row_index': ri,
+                          'object_index': oi,
+                          'object_id': obj.get('id', ''),
+                          'title': title,
+                          'description_html': description_html,
+                          'description_plain': strip_html(description_html),
+                          'cost_summary': score_summary(obj.get('scores', [])),
+                          'scores': scores,
+                          'requirements_raw': text_safe(obj.get('requireds', [])),
+                          'required': [compact_ref(x) for x in required_ids],
+                          'incompatible': [compact_ref(x) for x in incompatible_ids],
+                          'complex_conditions': complex_conditions,
+                          'addons': addons,
+                          'raw_object_text_safe': text_safe(obj),
+                      }
+                      records.append(record)
+
+          # Cross-check that no explicitly excluded row entered the corpus.
+          excluded_ids = {rid for ids in EXCLUDED_ROWS.values() for rid in ids}
+          accidental = sorted(selected_row_ids & excluded_ids)
+          if accidental:
+              extraction_issues.append({'type': 'excluded_row_selected', 'row_ids': accidental})
+
+          # Integrity and ambiguity audit.
+          id_counts = Counter(r['object_id'] for r in records)
+          unresolved = []
+          for r in records:
+              for field in ('required', 'incompatible'):
+                  for ref in r[field]:
+                      if not ref['resolved']:
+                          unresolved.append({
+                              'source_id': r['object_id'], 'source_title': r['title'],
+                              'field': field, 'target_id': ref['id'],
+                          })
+              for cond in r['complex_conditions']:
+                  for ref in cond.get('resolved', []):
+                      if not ref['resolved']:
+                          unresolved.append({
+                              'source_id': r['object_id'], 'source_title': r['title'],
+                              'field': 'complex_condition', 'target_id': ref['id'],
+                          })
+
+          anomalies = []
+          for r in records:
+              if not r['object_id']:
+                  anomalies.append({'type': 'empty_object_id', 'record': r['structural_path'], 'title': r['title']})
+              if not r['title']:
+                  anomalies.append({'type': 'empty_title', 'object_id': r['object_id'], 'path': r['structural_path']})
+              if not r['description_html']:
+                  anomalies.append({'type': 'empty_description', 'object_id': r['object_id'], 'title': r['title']})
+              if not r['scores']:
+                  anomalies.append({'type': 'no_score_entries', 'object_id': r['object_id'], 'title': r['title']})
+          for oid, count in id_counts.items():
+              if oid and count > 1:
+                  anomalies.append({'type': 'duplicate_id_within_corpus', 'object_id': oid, 'count': count})
+
+          counts_by_tier = Counter(r['tier'] for r in records)
+          counts_by_row = Counter(r['row_id'] for r in records)
+          counts_by_classification = Counter(r['classification'] for r in records)
+
+          source_bytes = SOURCE.read_bytes()
+          summary = {
+              'source': {
+                  'repository': 'MAurelian-Alba/worm-cyoa-v6-fork-16-08-26',
+                  'upstream_repository': 'ltouroumov/worm-cyoa-v6-fork',
+                  'file': str(SOURCE),
+                  'size_bytes': len(source_bytes),
+                  'sha256': hashlib.sha256(source_bytes).hexdigest(),
+              },
+              'scope': {
+                  'included': TIER_ROWS,
+                  'explicitly_excluded': EXCLUDED_ROWS,
+                  'selected_row_ids': sorted(selected_row_ids),
+              },
+              'counts': {
+                  'total_records': len(records),
+                  'by_tier': dict(sorted(counts_by_tier.items())),
+                  'by_row_id': dict(sorted(counts_by_row.items())),
+                  'by_classification': dict(sorted(counts_by_classification.items())),
+              },
+              'checks': {
+                  'all_expected_rows_resolved_once': not any(x['type'] == 'row_resolution' for x in extraction_issues),
+                  'no_excluded_rows_selected': not accidental,
+                  'unique_nonempty_object_ids_within_corpus': not any(x['type'] == 'duplicate_id_within_corpus' for x in anomalies),
+                  'unresolved_references_count': len(unresolved),
+                  'anomaly_count': len(anomalies),
+              },
+          }
+
+          ambiguity_report = {
+              'extraction_issues': extraction_issues,
+              'unresolved_references': unresolved,
+              'record_anomalies': anomalies,
+              'notes': [
+                  'Rows are selected by IDs from cyoa/md_export/config/powers/shard.py, not by fuzzy title matching.',
+                  'Embedded addons are retained as nested data but are not counted as separate base powers.',
+                  'All score entries are retained; cost_summary marks score entries with conditions as conditional.',
+                  'Non-ID and OR conditions are preserved verbatim in complex_conditions rather than flattened.',
+                  'Media fields and embedded data URLs are omitted; semantic text and conditions are retained.',
+              ],
+          }
+
+          # Canonical JSON and line-delimited JSON.
+          (OUT / 'corpus.json').write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding='utf-8')
+          with (OUT / 'corpus.jsonl').open('w', encoding='utf-8') as f:
+              for record in records:
+                  f.write(json.dumps(record, ensure_ascii=False, separators=(',', ':')) + '\n')
+          for tier in ('Tier 1', 'Tier 2', 'Tier 3'):
+              tier_records = [r for r in records if r['tier'] == tier]
+              filename = tier.lower().replace(' ', '-') + '.json'
+              (OUT / filename).write_text(json.dumps(tier_records, ensure_ascii=False, indent=2), encoding='utf-8')
+
+          # Flat CSV for review and spreadsheet import.
+          csv_fields = [
+              'tier', 'class_group', 'classification', 'structural_path',
+              'row_id', 'row_title', 'row_index', 'object_index', 'object_id',
+              'title', 'description_plain', 'description_html', 'cost_summary',
+              'required_titles', 'required_ids', 'incompatible_titles',
+              'incompatible_ids', 'complex_conditions_json', 'scores_json',
+              'addons_json', 'requirements_raw_json',
+          ]
+          with (OUT / 'corpus.csv').open('w', encoding='utf-8-sig', newline='') as f:
+              writer = csv.DictWriter(f, fieldnames=csv_fields)
+              writer.writeheader()
+              for r in records:
+                  def ref_titles(refs):
+                      titles = []
+                      for ref in refs:
+                          if ref['matches']:
+                              titles.extend(x['title'] for x in ref['matches'])
+                          else:
+                              titles.append(f"[UNRESOLVED:{ref['id']}]")
+                      return ' | '.join(titles)
+                  writer.writerow({
+                      'tier': r['tier'],
+                      'class_group': r['class_group'],
+                      'classification': r['classification'],
+                      'structural_path': r['structural_path'],
+                      'row_id': r['row_id'],
+                      'row_title': r['row_title'],
+                      'row_index': r['row_index'],
+                      'object_index': r['object_index'],
+                      'object_id': r['object_id'],
+                      'title': r['title'],
+                      'description_plain': r['description_plain'],
+                      'description_html': r['description_html'],
+                      'cost_summary': r['cost_summary'],
+                      'required_titles': ref_titles(r['required']),
+                      'required_ids': ' | '.join(x['id'] for x in r['required']),
+                      'incompatible_titles': ref_titles(r['incompatible']),
+                      'incompatible_ids': ' | '.join(x['id'] for x in r['incompatible']),
+                      'complex_conditions_json': json.dumps(r['complex_conditions'], ensure_ascii=False),
+                      'scores_json': json.dumps(r['scores'], ensure_ascii=False),
+                      'addons_json': json.dumps(r['addons'], ensure_ascii=False),
+                      'requirements_raw_json': json.dumps(r['requirements_raw'], ensure_ascii=False),
+                  })
+
+          (OUT / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
+          (OUT / 'ambiguities.json').write_text(json.dumps(ambiguity_report, ensure_ascii=False, indent=2), encoding='utf-8')
+
+          readme = f'''# Shard Powers Tier 1-3 corpus (Project V17)\n\nThis directory is generated from `project-v17.json`. It contains only the base Shard Powers rows configured by the project's own Markdown export map.\n\n- Total records: **{len(records)}**\n- Tier 1: **{counts_by_tier.get('Tier 1', 0)}**\n- Tier 2: **{counts_by_tier.get('Tier 2', 0)}**\n- Tier 3: **{counts_by_tier.get('Tier 3', 0)}**\n- Unresolved references: **{len(unresolved)}**\n- Audit anomalies: **{len(anomalies)}**\n\n## Files\n\n- `corpus.json`: canonical detailed corpus.\n- `corpus.jsonl`: one record per line.\n- `corpus.csv`: flat review/import table.\n- `tier-1.json`, `tier-2.json`, `tier-3.json`: split corpora.\n- `summary.json`: source fingerprint, counts, and completeness checks.\n- `ambiguities.json`: unresolved references and extraction anomalies.\n\nEmbedded addons are retained inside their parent powers but are not counted as separate powers. Media fields are omitted.\n'''
+          (OUT / 'README.md').write_text(readme, encoding='utf-8')
+
+          print(json.dumps(summary, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit generated corpus
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add analysis/shard-powers-v17
+          git diff --cached --quiet && exit 0
+          git commit -m 'Export Shard Powers Tier 1-3 corpus'
+          git push
