@@ -1,0 +1,113 @@
+name: Diagnose Shard Tier 2 row
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/diagnose-shard-tier2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sparse checkout project
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            project-v17.json
+            .github/workflows/diagnose-shard-tier2.yml
+            analysis/shard-powers-v17
+
+      - name: Inspect rows and known Tier 2 powers
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('project-v17.json').read_text(encoding='utf-8'))
+          rows = data.get('rows', [])
+          known = ['Precognition', 'Fictiportation', 'Fading Star']
+          known_lower = [x.lower() for x in known]
+          selected = {'tc7n','wtn7','vs8q','ghw4','nwgn','z0zb','4x5f','xu5q','b7r5','bbyi','hyzg','e018'}
+          excluded = {'jsch','zj4c','wy6p','xe94','o58j','qd5r','jmco','ab0a','hd9l','qldk'}
+
+          report = {
+              'root_row_count': len(rows),
+              'rows_with_tier_or_shard_in_title': [],
+              'known_power_matches': [],
+              'neighborhoods': [],
+              'candidate_rows': [],
+          }
+
+          id_to_index = {}
+          for i, row in enumerate(rows):
+              rid = row.get('id','')
+              title = row.get('title','')
+              objects = row.get('objects', [])
+              id_to_index[rid] = i
+              if 'tier' in title.lower() or 'shard' in title.lower():
+                  report['rows_with_tier_or_shard_in_title'].append({
+                      'row_index': i, 'row_id': rid, 'row_title': title,
+                      'object_count': len(objects),
+                      'first_titles': [o.get('title','') for o in objects[:5]],
+                      'last_titles': [o.get('title','') for o in objects[-5:]],
+                  })
+              matches = []
+              for j, obj in enumerate(objects):
+                  ot = obj.get('title','')
+                  if any(k in ot.lower() for k in known_lower):
+                      matches.append({'object_index': j, 'object_id': obj.get('id',''), 'title': ot})
+              if matches:
+                  report['known_power_matches'].append({
+                      'row_index': i, 'row_id': rid, 'row_title': title,
+                      'object_count': len(objects), 'matches': matches,
+                  })
+
+          anchor_indices = sorted({id_to_index[x] for x in selected if x in id_to_index})
+          for anchor in anchor_indices:
+              start = max(0, anchor - 3)
+              end = min(len(rows), anchor + 4)
+              report['neighborhoods'].append({
+                  'anchor_index': anchor,
+                  'anchor_id': rows[anchor].get('id',''),
+                  'rows': [
+                      {'row_index': i, 'row_id': rows[i].get('id',''), 'row_title': rows[i].get('title',''),
+                       'object_count': len(rows[i].get('objects', []))}
+                      for i in range(start, end)
+                  ],
+              })
+
+          for i, row in enumerate(rows):
+              rid = row.get('id','')
+              objects = row.get('objects', [])
+              if rid in selected or rid in excluded or not objects:
+                  continue
+              titles = [o.get('title','') for o in objects]
+              class_like = sum(1 for t in titles if t.lstrip().startswith(('(', '[')))
+              if len(objects) >= 10 and class_like / len(objects) >= 0.5:
+                  report['candidate_rows'].append({
+                      'row_index': i, 'row_id': rid, 'row_title': row.get('title',''),
+                      'object_count': len(objects), 'class_like_ratio': class_like / len(objects),
+                      'first_titles': titles[:10],
+                  })
+
+          out = Path('analysis/shard-powers-v17/row-diagnostics.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit diagnostic
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse analysis/shard-powers-v17/row-diagnostics.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Diagnose current Tier 2 row location'
+          git push
