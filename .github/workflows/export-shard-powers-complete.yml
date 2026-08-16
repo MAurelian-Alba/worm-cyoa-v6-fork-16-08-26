@@ -1,0 +1,54 @@
+name: Export complete Shard Powers corpus
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/export-shard-powers-complete.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sparse checkout required files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            project-v17.json
+            analysis-tools/export_shard_powers_corpus.py
+            .github/workflows/export-shard-powers-complete.yml
+            analysis/shard-powers-v17
+
+      - name: Apply current physical row map and extract
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          source = Path('analysis-tools/export_shard_powers_corpus.py').read_text(encoding='utf-8')
+          source = source.replace(
+              '("Master", "ghw4"), ("Tinker", "nwgn"), ("Blaster", "z0zb"),',
+              '("Breaker", "r2u5"), ("Master", "ghw4"), ("Tinker", "nwgn"), ("Blaster", "z0zb"),'
+          )
+          source = source.replace(
+              '"Tier 2": [("All", "zg2f")],',
+              '"Tier 2": [("Page 1", "group--zg2f"), ("Page 2", "group--fxkg1a"), ("Page 3", "group--zr3ucz")],'
+          )
+          patched = Path('/tmp/export_shard_powers_complete.py')
+          patched.write_text(source, encoding='utf-8')
+          PY
+          python /tmp/export_shard_powers_complete.py
+
+      - name: Commit corrected corpus
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse analysis/shard-powers-v17
+          git diff --cached --quiet && exit 0
+          git commit -m 'Export complete Shard Powers Tier 1-3 corpus'
+          git push
